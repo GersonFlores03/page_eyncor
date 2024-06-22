@@ -7,7 +7,6 @@ import ListaContable from './ChatBot/ListaContable';
 import ListaGlp from './ChatBot/ListaGlp';
 import ListaTienda from './ChatBot/ListaTienda';
 import ListaTransporte from './ChatBot/ListaTransporte';
-import { ThemeProvider } from 'styled-components';
 
 const ChatContenido = () => {
 
@@ -469,11 +468,11 @@ const ChatContenido = () => {
         {showChat && (
           <div style={chatContainerStyle}>
 
-            <ThemeProvider theme={theme}>
+          
 
               <ChatBot steps={steps} />
 
-            </ThemeProvider>
+            
 
 
           </div>

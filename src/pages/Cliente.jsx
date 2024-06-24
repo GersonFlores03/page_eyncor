@@ -141,6 +141,90 @@ const Cliente = () => {
                                     <td class="border px-4 py-2"></td>
                                 </tr>
 
+                                {/* ------------------------------------------------------------  */}
+
+                                
+                                <tr>
+                                    <td class="border px-4 py-2">MULTISERVICIOS H & H SAN FRANCISCO SAC (JULIACA)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">GRIFOS & INVERSIONES SAN JOSE SAC (PUNO - JULIACA)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">SERVICENTRO HUAYNARROQUE EIRL (PUNO - JULIACA)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">CORPORACION EDXXON FUEL EIRL - (PUNO - JULIACA) </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">ESTACIÓN DE SERVICIOS PERSEO SAC / GRIFOS (SECHURA - PAITA - GRIFOS FLOTANTES - CHATAS)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">ESTACIÓN DE SERVICIO EL MOLINO S.A.C. / GRIFOS (AREQUIPA)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">NIKKEI (SANTISTEBAN BROTHERS SAC) (ASCOPE)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">ESTACIÓN DE SERVICIOS PETROSELVA / GRIFOS (JAEN)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">GRIFOS JUSTINA HUANCO MAMANI (PUNO - JULIACA)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">ESTACIÓN DE SERVICIOS PETROLEO FLUVIALES EIRL / GRIFOS (UCAYALI)</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+
+
+
+
+
+
                             </tbody>
                         </table>
                     </div>

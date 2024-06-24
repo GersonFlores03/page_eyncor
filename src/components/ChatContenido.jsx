@@ -49,7 +49,7 @@ const ChatContenido = () => {
 
   const floatingButtonStyle = {
     position: 'fixed',
-    bottom: '30px',
+    bottom: '22px',
     left: "30px",
     zIndex: '1000',
     cursor: 'pointer',
@@ -59,8 +59,8 @@ const ChatContenido = () => {
     color: 'white',
     border: 'none',
     borderRadius: '50%',
-    width: '80px',
-    height: '80px',
+    width: '75px',
+    height: '75px',
   };
 
   // Estilos del contenedor del chat
@@ -487,14 +487,14 @@ const ChatContenido = () => {
 
         <div style={floatingButtonStyle} onClick={handleToggleChat}>
          
-          <img style={buttonStyle} src={bot} alt="" />
+          <img style={buttonStyle} src={bot} alt="boton-chat" />
         </div>
 
 
         {showChat && (
           <div style={chatContainerStyle}>
              <ThemeProvider theme={theme} >
-              <ChatBot steps={steps} botBubbleComponent={customBubbleStyle} botAvatar={bot} />
+              <ChatBot steps={steps} botBubbleComponent={customBubbleStyle} botAvatar={bot} enableSmoothScroll={true} />
              </ThemeProvider>
           </div>
         )}

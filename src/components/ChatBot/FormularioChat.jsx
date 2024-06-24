@@ -33,46 +33,44 @@ const FormularioChat = ({ triggerNextStep }) => {
                 <div className="form-group mb-3">
 
                     <p className='mb-1'> RUC: </p>
-                    <input 
-                    className='inputChat' type="text" 
-                    placeholder='RUC'
-                    {...register('ruc', { required: true })}
-                     />
+                    <input
+                        className='inputChat' type="text"
+                        placeholder='RUC'
+                        {...register('ruc', { required: true })}
+                    />
                 </div>
                 <div className="form-group mb-3">
                     <p>Nombre:</p>
-                    <input className='inputChat' 
-                    type="text" {...register('nombre', { required: true })} 
-                    placeholder='Nombre'
-                    
+                    <input className='inputChat'
+                        type="text" {...register('nombre', { required: true })}
+                        placeholder='Nombre'
+
                     />
                     {errors.name && <span className="error">El nombre es requerido</span>}
                 </div>
                 <div className="form-group mb-3">
                     <p className='mb-1' > Teléfono: </p>
-                    <input className='inputChat' 
-                    type="text"
-                     {...register('telefono', { required: true })} 
-                     placeholder='Teléfono'
-                     />
+                    <input className='inputChat'
+                        type="text"
+                        {...register('telefono', { required: true })}
+                        placeholder='Teléfono'
+                    />
                     {errors.phone && <span className="error">El teléfono es requerido</span>}
                 </div>
                 <div className="form-group mb-3">
                     <p className='mb-1' > Comentario: </p>
-                    <input 
-                    className='
-                    inputDescripcion
-                    
-                    '
-                     type="text" 
-                     {...register('comentario', { required: true })} 
-                     placeholder='Comentario'
-                     />
+                    <textarea
+                        className='inputDescripcion'
+                        {...register('comentario', { required: true })}
+                        placeholder='Comentario'
+                    />
                     {errors.message && <span className="error">El comentario es requerido</span>}
                 </div>
+
+
                 <button className='chaBotBoton mb-2' type="submit">Enviar</button>
             </form>
-                 <Toaster position="top-center" />
+            <Toaster position="top-center" />
         </div>
     );
 };
@@ -84,3 +82,31 @@ FormularioChat.propTypes = {
 
 
 export default FormularioChat;
+
+
+
+
+/*  
+
+ <textarea
+        className='inputDescripcion'
+        {...register('comentario', { required: true })}
+        placeholder='Comentario'
+    />
+
+      <div className="form-group mb-3">
+                    <p className='mb-1'> Comentario: </p>
+                    <select
+                        className='inputDescripcion'
+                        {...register('comentario', { required: true })}
+                    >
+                        <option value="">Selecciona una opción...</option>
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                    </select>
+                    {errors.comentario && <span className="error">Debes seleccionar una opción</span>}
+                </div>
+
+
+*/

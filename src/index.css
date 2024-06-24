@@ -12,6 +12,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -797,3 +799,7 @@ table {
   background-color: white;
 }
 
+
+.containerUtiles li{
+  color: #0B66C2;
+}

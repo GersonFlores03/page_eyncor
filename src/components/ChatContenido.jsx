@@ -7,6 +7,14 @@ import ListaContable from './ChatBot/ListaContable';
 import ListaGlp from './ChatBot/ListaGlp';
 import ListaTienda from './ChatBot/ListaTienda';
 import ListaTransporte from './ChatBot/ListaTransporte';
+import bot from "../assets/icons/bot.webp"
+import { Link } from 'react-router-dom';
+import ButtonChat from './ChatBot/ButtonChat';
+import ButtonChatG from "./ChatBot/ButtonChatG";
+import ButtonChatT from "./ChatBot/ButtonChatT";
+import ButtonChatTi from "./ChatBot/ButtonChatTi";
+import ButtonChatC from "./ChatBot/ButtonChatC";
+import ButtonChatA from "./ChatBot/ButtonChatA";
 
 const ChatContenido = () => {
 
@@ -41,30 +49,31 @@ const ChatContenido = () => {
   const floatingButtonStyle = {
     position: 'fixed',
     bottom: '30px',
-
     left: "30px",
     zIndex: '1000',
     cursor: 'pointer',
   };
 
   const buttonStyle = {
-    backgroundColor: '#0084ff',
     color: 'white',
     border: 'none',
     borderRadius: '50%',
-    width: '60px',
-    height: '60px',
-    fontSize: '20px',
+    width: '80px',
+    height: '80px',
   };
 
   // Estilos del contenedor del chat
   const chatContainerStyle = {
     position: 'fixed',
-    bottom: '200px',
+    bottom: '220px',
     left: "95px",
     zIndex: '1000',
     width: '300px',
     height: '400px',
+  };
+
+  const customBubbleStyle = {
+    width: '800px', // Cambia este valor al tamaño deseado
   };
 
 
@@ -78,7 +87,7 @@ const ChatContenido = () => {
 
     {
       id: '1',
-      message: '¿Cuál es tu nombre?',
+      message: '¿Cuál es tu nombre completo?',
       trigger: '2',
     },
 
@@ -93,139 +102,152 @@ const ChatContenido = () => {
       trigger: '4'
     },
 
-
     {
       id: '4',
-      message: '¿En qué tipo de ERP estás interesado?',
-      trigger: '5',
+      message: 'Para estar en contacto contigo, por favor completa este formulario',
+      trigger: '5'
     },
 
 
     {
       id: '5',
-      options: [
-
-        { value: 'ERP grifos', label: "ERP GRIFOS", trigger: '6' },
-        { value: 'ERP glp', label: "ERP GLP", trigger: '30' },
-        { value: 'ERP tiendas', label: "ERP TIENDAS", trigger: '38' },
-        { value: 'ERP para Contabilidad', label: "ERP CONTABILIDAD", trigger: '23' },
-        { value: 'ERP Transporte', label: "ERP TRANSPORTE", trigger: '46' },
-        { value: 'ERP Adaptable', label: "ERP ADAPTABLE", trigger: '15' },
-      ],
+      component: <FormularioChat />,
+      waitAction: true,
+      trigger: '6'
     },
 
 
     {
       id: '6',
-      message: '¿Cuáles son las funcionalidades clave que buscas en un ERP para tu grifo?',
+      message: '¿En qué tipo de ERP estás interesado?',
       trigger: '7',
     },
 
 
     {
       id: '7',
-      user: true,
-      trigger: '8'
+      options: [
+
+        { value: 'ERP grifos', label: "ERP GRIFOS", trigger: '8' },
+        { value: 'ERP glp', label: "ERP GLP", trigger: '31' },
+        { value: 'ERP tiendas', label: "ERP TIENDAS", trigger: '39' },
+        { value: 'ERP para Contabilidad', label: "ERP CONTABILIDAD", trigger: '24' },
+        { value: 'ERP Transporte', label: "ERP TRANSPORTE", trigger: '47' },
+        { value: 'ERP Adaptable', label: "ERP ADAPTABLE", trigger: '16' },
+      ],
     },
+
+    
 
 
     {
       id: '8',
-      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      message: '¿Cuáles son las funcionalidades clave que buscas en un ERP para tu grifo?',
       trigger: '9',
     },
 
 
     {
       id: '9',
-      component: <ListaVentajas />,
+      user: true,
       trigger: '10'
     },
 
+
     {
       id: '10',
-      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
-      trigger: '11'
+      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      trigger: '11',
     },
+
 
     {
       id: '11',
-      user: true,
+      component: <ListaVentajas />,
       trigger: '12'
     },
 
     {
       id: '12',
-      message: 'Para poder ofrecerte una solución más detallada, por favor, facilítanos tus datos de contacto',
+      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
       trigger: '13'
     },
 
-
     {
       id: '13',
-      component: <FormularioChat />,
+      user: true,
       trigger: '14'
     },
 
     {
       id: '14',
-      message: 'Gracias por confiar en nosotros al completar el formulario. Nos pondremos en contacto con usted a la brevedad.',
-      end: true
+      message: 'Para poder ofrecerte una solución más detallada, te llevare al apartado de grifos',
+      trigger: '15'
     },
 
-
-    //ERP ADPTABLE
 
     {
       id: '15',
-      message: '¿Cuáles son las áreas específicas que deseas personalizar en nuestro ERP adaptable?',
-      trigger: '16',
+      component: <ButtonChat/>,
+      waitAction: true,
+      trigger: '6'
     },
 
+
+
+   
+    //ERP ADPTABLE
 
     {
       id: '16',
-      user: true,
-      trigger: '17'
+      message: '¿Cuáles son las áreas específicas que deseas personalizar en nuestro ERP adaptable?',
+      trigger: '17',
     },
+
 
     {
       id: '17',
-      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
-      trigger: '18',
+      user: true,
+      trigger: '18'
     },
-
 
     {
       id: '18',
-      component: <ListaAdaptable />,
-      trigger: '19'
+      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      trigger: '19',
     },
+
 
     {
       id: '19',
-      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
+      component: <ListaAdaptable />,
       trigger: '20'
     },
 
-
     {
       id: '20',
-      user: true,
+      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
       trigger: '21'
     },
 
+
     {
       id: '21',
-      message: 'Para poder ofrecerte una solución más detallada, por favor, facilítanos tus datos de contacto',
+      user: true,
       trigger: '22'
     },
 
-
     {
       id: '22',
-      component: <FormularioChat />,
-      end: true
+      message: 'Para poder ofrecerte una solución más detallada, te llevare al apartado de ERP adaptable',
+      trigger: '23'
+    },
+
+    {
+      id: '23',
+      component: <ButtonChatA/>,
+      waitAction: true,
+      trigger: '6'
     },
 
 
@@ -233,161 +255,163 @@ const ChatContenido = () => {
     //Contabilidad--------
 
     {
-      id: '23',
-      message: '¿Qué aspectos contables necesitas gestionar con nuestro ERP?',
-      trigger: '24',
-    },
-
-
-    {
       id: '24',
-      user: true,
-      trigger: '25'
+      message: '¿Qué aspectos contables necesitas gestionar con nuestro ERP?',
+      trigger: '25',
     },
+
 
     {
       id: '25',
-      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
-      trigger: '26',
+      user: true,
+      trigger: '26'
     },
-
 
     {
       id: '26',
-      component: <ListaContable />,
-      trigger: '27'
+      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      trigger: '27',
     },
 
 
     {
       id: '27',
-      user: true,
+      component: <ListaContable />,
       trigger: '28'
     },
 
     {
       id: '28',
-      message: 'Para poder ofrecerte una solución más detallada, por favor, facilítanos tus datos de contacto',
+      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
       trigger: '29'
     },
-
+    
 
     {
       id: '29',
-      component: <FormularioChat />,
-      end: true
+      message: 'Para poder ofrecerte una solución más detallada, te llevare al apartado de ERP Contabilidad',
+      trigger: '30'
+    },
+
+    {
+      id: '30',
+      component: <ButtonChatC/>,
+      waitAction: true,
+      trigger: '6'
     },
 
 
     //GLP
 
     {
-      id: '30',
-      message: '¿Qué aspectos de la gestión de GLP te gustaría mejorar con nuestro ERP?',
-      trigger: '31',
-    },
-
-
-    {
       id: '31',
-      user: true,
-      trigger: '32'
+      message: '¿Qué aspectos de la gestión de GLP te gustaría mejorar con nuestro ERP?',
+      trigger: '32',
     },
+
 
     {
       id: '32',
-      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
-      trigger: '33',
+      user: true,
+      trigger: '33'
     },
-
-
 
     {
       id: '33',
-      component: <ListaGlp />,
-      trigger: '34'
+      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      trigger: '34',
     },
+
+
 
     {
       id: '34',
-      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
-      trigger: '35',
+      component: <ListaGlp />,
+      trigger: '35'
     },
 
     {
       id: '35',
-      user: true,
-      trigger: '36'
+      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
+      trigger: '36',
     },
 
     {
       id: '36',
-      message: 'Para poder ofrecerte una solución más detallada, por favor, facilítanos tus datos de contacto.',
+      user: true,
       trigger: '37'
     },
 
-
     {
       id: '37',
-      component: <FormularioChat />,
-      end: true
+      message: 'Para poder ofrecerte una solución más detallada, te llevare al apartado de ERP GLP',
+      trigger: '38'
     },
-
-
-    //ERP TIENDAS
 
 
     {
       id: '38',
-      message: '¿Cuáles son las características esenciales que buscas en un ERP para tu tienda?',
-      trigger: '39',
+      component: <ButtonChatG/>,
+      waitAction: true,
+      trigger: '6'
     },
+
+
+   
+    //ERP TIENDAS
 
 
     {
       id: '39',
-      user: true,
-      trigger: '40'
+      message: '¿Cuáles son las características esenciales que buscas en un ERP para tu tienda?',
+      trigger: '40',
     },
+
 
     {
       id: '40',
-      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
-      trigger: '41',
+      user: true,
+      trigger: '41'
     },
-
-
 
     {
       id: '41',
-      component: <ListaTienda />,
-      trigger: '42'
+      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      trigger: '42',
     },
+
+
 
     {
       id: '42',
-      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
+      component: <ListaTienda />,
       trigger: '43'
     },
 
-
     {
       id: '43',
-      user: true,
+      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
       trigger: '44'
     },
 
+
     {
       id: '44',
-      message: 'Para poder ofrecerte una solución más detallada, por favor, facilítanos tus datos de contacto.',
+      user: true,
       trigger: '45'
     },
 
-
     {
       id: '45',
-      component: <FormularioChat />,
-      end: true
+      message: 'Para poder ofrecerte una solución más detallada, te llevare al apartado de ERP TIENDAS',
+      trigger: '46'
+    },
+
+    {
+      id: '46',
+      component: <ButtonChatTi/>,
+      waitAction: true,
+      trigger: '6'
     },
 
     //Transporte
@@ -395,58 +419,58 @@ const ChatContenido = () => {
 
 
     {
-      id: '46',
-      message: '¿Qué aspectos de la gestión de transporte te gustaría mejorar con nuestro ERP?',
-      trigger: '47',
-    },
-
-
-    {
       id: '47',
-      user: true,
-      trigger: '48'
+      message: '¿Qué aspectos de la gestión de transporte te gustaría mejorar con nuestro ERP?',
+      trigger: '48',
     },
+
 
     {
       id: '48',
-      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
-      trigger: '49',
+      user: true,
+      trigger: '49'
     },
-
-
 
     {
       id: '49',
-      component: <ListaTransporte />,
-      trigger: '50'
+      message: 'Algunas de las ventajas que tendrías de trabajar con EYNCOR ERP son:',
+      trigger: '50',
     },
+
+
 
     {
       id: '50',
-      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
+      component: <ListaTransporte />,
       trigger: '51'
     },
 
-
     {
       id: '51',
-      user: true,
+      message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
       trigger: '52'
     },
 
+
     {
       id: '52',
-      message: 'Para poder ofrecerte una solución más detallada, por favor, facilítanos tus datos de contacto.',
+      user: true,
       trigger: '53'
     },
 
-
     {
       id: '53',
-      component: <FormularioChat />,
-      end: true
+      message: 'Para poder ofrecerte una solución más detallada, te llevare al apartado de ERP transporte',
+      trigger: '54'
     },
 
+
+    {
+      id: '54',
+      component: <ButtonChatT/>,
+      waitAction: true,
+      trigger: '6'
+    },
 
 
     //Configurar parte final
@@ -461,20 +485,14 @@ const ChatContenido = () => {
       <div>
 
         <div style={floatingButtonStyle} onClick={handleToggleChat}>
-          <button style={buttonStyle}> Chat </button>
+         
+          <img style={buttonStyle} src={bot} alt="" />
         </div>
 
 
         {showChat && (
           <div style={chatContainerStyle}>
-
-          
-
-              <ChatBot steps={steps} />
-
-            
-
-
+              <ChatBot steps={steps} botBubbleComponent={customBubbleStyle} botAvatar={bot} />
           </div>
         )}
       </div>

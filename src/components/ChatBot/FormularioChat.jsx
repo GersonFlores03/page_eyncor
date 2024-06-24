@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import PropTypes from 'prop-types';
 import { useCorreo } from '../../context/CorreoProvider';
+import { Toaster, toast } from 'sonner';
 
-const FormularioChat = () => {
+
+
+const FormularioChat = ({ triggerNextStep }) => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
@@ -12,8 +16,9 @@ const FormularioChat = () => {
 
     const onSubmit = (data) => {
         try {
-         creacionCorreo(data)
-         setSuccessMessage('Nuestro equipo se comunicará con usted pronto.');
+            creacionCorreo(data)
+            toast.success('Nuestro equipo se comunicará con usted pronto.');
+            triggerNextStep()
         } catch (error) {
             setSuccessMessage('Necesitas llenar los campos');
         }
@@ -24,7 +29,7 @@ const FormularioChat = () => {
     return (
         <div className="form-container flex items-center justify-center">
             <form onSubmit={handleSubmit(onSubmit)}>
-               <h2 className='mb-3 text-xl text-blue-600 font-extrabold'> Fomulario EYNCOR ERP </h2>
+                <h2 className='mb-3 text-xl text-blue-600 font-extrabold'> Fomulario EYNCOR ERP </h2>
 
                 <div className="form-group mb-3">
 
@@ -47,13 +52,16 @@ const FormularioChat = () => {
                     {errors.message && <span className="error">El comentario es requerido</span>}
                 </div>
                 <button className='chaBotBoton mb-2' type="submit">Enviar</button>
-
-                <p className='text-green-500 w-[300px]'>
-                {successMessage && <p className="success-message">{successMessage}</p>}
-                </p>
             </form>
+                 <Toaster position="top-center" />
         </div>
     );
 };
+
+
+FormularioChat.propTypes = {
+    triggerNextStep: PropTypes.func.isRequired,
+};
+
 
 export default FormularioChat;

@@ -15,6 +15,7 @@ import ButtonChatT from "./ChatBot/ButtonChatT";
 import ButtonChatTi from "./ChatBot/ButtonChatTi";
 import ButtonChatC from "./ChatBot/ButtonChatC";
 import ButtonChatA from "./ChatBot/ButtonChatA";
+import {ThemeProvider} from "styled-components"
 
 const ChatContenido = () => {
 
@@ -492,7 +493,9 @@ const ChatContenido = () => {
 
         {showChat && (
           <div style={chatContainerStyle}>
+             <ThemeProvider theme={theme} >
               <ChatBot steps={steps} botBubbleComponent={customBubbleStyle} botAvatar={bot} />
+             </ThemeProvider>
           </div>
         )}
       </div>

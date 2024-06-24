@@ -25,30 +25,49 @@ const FormularioChat = ({ triggerNextStep }) => {
     };
 
 
-
     return (
         <div className="form-container flex items-center justify-center">
             <form onSubmit={handleSubmit(onSubmit)}>
-                <h2 className='mb-3 text-xl text-blue-600 font-extrabold'> Fomulario EYNCOR ERP </h2>
+                <h2 className='mb-3 text-xl text-blue-600 font-extrabold'>  Solicita Reserva </h2>
 
                 <div className="form-group mb-3">
 
                     <p className='mb-1'> RUC: </p>
-                    <input className='inputChat' type="text" {...register('ruc', { required: true })} />
+                    <input 
+                    className='inputChat' type="text" 
+                    placeholder='RUC'
+                    {...register('ruc', { required: true })}
+                     />
                 </div>
                 <div className="form-group mb-3">
                     <p>Nombre:</p>
-                    <input className='inputChat' type="text" {...register('nombre', { required: true })} />
+                    <input className='inputChat' 
+                    type="text" {...register('nombre', { required: true })} 
+                    placeholder='Nombre'
+                    
+                    />
                     {errors.name && <span className="error">El nombre es requerido</span>}
                 </div>
                 <div className="form-group mb-3">
-                    <p className='mb-1' > Teléfono</p>
-                    <input className='inputChat' type="text" {...register('telefono', { required: true })} />
+                    <p className='mb-1' > Teléfono: </p>
+                    <input className='inputChat' 
+                    type="text"
+                     {...register('telefono', { required: true })} 
+                     placeholder='Teléfono'
+                     />
                     {errors.phone && <span className="error">El teléfono es requerido</span>}
                 </div>
                 <div className="form-group mb-3">
-                    <p className='mb-1' >Detalle: </p>
-                    <input className='inputChat' type="text" {...register('comentario', { required: true })} />
+                    <p className='mb-1' > Comentario: </p>
+                    <input 
+                    className='
+                    inputDescripcion
+                    
+                    '
+                     type="text" 
+                     {...register('comentario', { required: true })} 
+                     placeholder='Comentario'
+                     />
                     {errors.message && <span className="error">El comentario es requerido</span>}
                 </div>
                 <button className='chaBotBoton mb-2' type="submit">Enviar</button>

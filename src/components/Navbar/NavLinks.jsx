@@ -45,7 +45,7 @@ const NavLinks = ({ setOpen }) => {
                     mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white w-[800px] rounded-lg p-5 grid grid-cols-4 gap-10 custom-z-index">
+                  <div className="bg-white w-[750px] rounded-lg p-5 grid grid-cols-4  custom-z-index">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold">

@@ -295,7 +295,7 @@ const Home = () => {
                             <div className='circulo_opacity flex items-center justify-center'>
                                 <img src={objetivo} className='w-20' alt="objetivo" />
                             </div>
-                            <strong className='titulo_home font-bold '> 200 + </strong>
+                            <strong className='titulo_home font-bold '> 300 + </strong>
                             <h5 className='sub_titulo_home'>Tratos con empresas</h5>
                         </div>
 
@@ -303,7 +303,7 @@ const Home = () => {
                             <div className='circulo_opacity flex items-center justify-center'>
                                 <img src={realimentacion} className='w-20' alt="realimentacion" />
                             </div>
-                            <strong className='titulo_home font-bold '> 300 + </strong>
+                            <strong className='titulo_home font-bold '> 600 + </strong>
                             <h5 className='sub_titulo_home'>Clientes Satisfechos</h5>
                         </div>
 
@@ -311,7 +311,7 @@ const Home = () => {
                             <div className='circulo_opacity flex items-center justify-center'>
                                 <img src={exito} className='w-20' alt="exito" />
                             </div>
-                            <strong className='titulo_home font-bold '> 210 + </strong>
+                            <strong className='titulo_home font-bold '> 360 + </strong>
                             <h5 className='sub_titulo_home'>Trabajos concluidos</h5>
                         </div>
                     </div>

@@ -3,7 +3,7 @@ import { ListGroup } from 'react-bootstrap';
 
 const AccesoClientes = () => {
     return (
-        <div className='container-acceso mt-[150px] mb-10'>
+        <div className='container-acceso  mt-[100px]  lg:mt-[150px] mb-10'>
             <h1 className='text-center mb-6 text-3xl text-blue-600'> ACCESO EYNCOR ERP INTEGRADO SUCURSALES EN TIEMPO REAL </h1>
 
             <section className='flex items-center justify-center'>

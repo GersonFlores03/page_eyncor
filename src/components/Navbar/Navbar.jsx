@@ -40,10 +40,6 @@ const Navbar = () => {
 
         </div>
 
-
-
-        
-
         {/* Mobile nav */}
         <ul
           className={`
@@ -63,14 +59,19 @@ const Navbar = () => {
 
           </div>
 
-
           <div onClick={handleLinkClick} className="flex items-center justify-evenly flex-col gap-5">
             <a href="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/" target="_blank" rel="noopener noreferrer">
               <button className="btn_contacto">Consulta FE</button>
             </a>
-            <div className="mb-10">
+            <div>
 
               <Link to={"/contacto"}> <button className="btn_contacto">Contáctanos</button> </Link>
+
+            </div>
+
+            <div className="mb-10">
+
+              <Link to={"/acceso-clientes"}> <button className="btn_contacto">Acceso Clientes</button> </Link>
 
             </div>
 

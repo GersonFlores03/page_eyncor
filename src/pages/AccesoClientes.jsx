@@ -46,7 +46,7 @@ const AccesoClientes = () => {
                     </ListGroup.Item>
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app017.eyncor.com/jevaro_glp_reparto/acceso/" target="_blank" rel="noopener noreferrer">
-                           REPARTO GLP SAC
+                            REPARTO GLP SAC
                         </a>
                     </ListGroup.Item>
                     <ListGroup.Item className='empresas-white'>
@@ -59,7 +59,13 @@ const AccesoClientes = () => {
                         <a href="http://www.app012.eyncor.com/selva_gas/acceso/" target="_blank" rel="noopener noreferrer"> SELVA GAS NOR ORIENTE E.I.R.L. </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white'>
+                    <ListGroup.Item className='empresas-white' >
+                        <a href="http://www.app012.eyncor.com/juan_gas/acceso/" target="_blank" rel="noopener noreferrer">
+                            JUAN GAS SAC
+                        </a>
+                    </ListGroup.Item>
+
+                    <ListGroup.Item className='empresas-blue'>
                         <a href="http://www.app012.eyncor.com/hogas_southfork/acceso/" target="_blank" rel="noopener noreferrer">
                             SOUTHFORK EIRL
                         </a>
@@ -84,7 +90,7 @@ const AccesoClientes = () => {
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white'>
+                    <ListGroup.Item className='empresas-blue'>
                         <a href="http://www.app210.eyncor.com/jevaro_grifo/acceso/" target="_blank" rel="noopener noreferrer">
                             JEVARO SAC
                         </a>
@@ -92,30 +98,30 @@ const AccesoClientes = () => {
 
                     <ListGroup.Item className='empresas-white'>
                         <a href="http://www.app015.eyncor.com/jevaro_inversiones/acceso/" target="_blank" rel="noopener noreferrer">
-                           GE INVERSIONES EIRL
+                            GE INVERSIONES EIRL
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white'>
+                    <ListGroup.Item className='empresas-blue'>
                         <a href="http://www.app008.eyncor.com/jevaro_val/acceso/" target="_blank" rel="noopener noreferrer">
-                          VAL HIDROCARBUROS S.A.C
+                            VAL HIDROCARBUROS S.A.C
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app203.eyncor.com/alborada/acceso/" target="_blank" rel="noopener noreferrer">
                             GASOCENTRO LA ALBORADA SRL
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white'>
+                    <ListGroup.Item className='empresas-blue'>
                         <a href="http://www.app207.eyncor.com/rosa_mistica/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFO SANTA MARIA ROSA MISTICA SRL
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app200.eyncor.com/sihuasinos/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFO SIHUASINOS SAC
                         </a>
@@ -142,44 +148,44 @@ const AccesoClientes = () => {
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app226.eyncor.com/gsanjose_servhuayna/acceso/" target="_blank" rel="noopener noreferrer">
                             SERVICENTRO HUAYNAROQUE EIRL
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app227.eyncor.com/gsanjose_vjmultiserv/acceso/" target="_blank" rel="noopener noreferrer">
                             V & J MULTISERVICIOS SAN JOSE SAC
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app228.eyncor.com/gsanjose_grifobuenav/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFOS BUENAVENTURA SAC
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app229.eyncor.com/gsanjose_justina/acceso/" target="_blank" rel="noopener noreferrer">
                             JUSTINA HUANCO MAMANI
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app230.eyncor.com/gsanjose_alan/acceso/" target="_blank" rel="noopener noreferrer">
                             ALAN CRISTIAN QUISOCALA HUANCO
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app001.eyncor.com/triangulo_grifo/acceso/" target="_blank" rel="noopener noreferrer">
                             SERVICENTRO TRIANGULO DE ORO SRLTA
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app234.eyncor.com/elmolino/acceso/" target="_blank" rel="noopener noreferrer">
                             ESTACION EL MOLINO SAC
                         </a>
@@ -187,48 +193,48 @@ const AccesoClientes = () => {
 
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app005.eyncor.com/jevaro_fluvial/acceso/" target="_blank" rel="noopener noreferrer">
-                          PETROLEO FLUVIALES EIRL(Grifo Flotante Don Rafa)
-                        </a>
-                    </ListGroup.Item>
-
-                    <ListGroup.Item className='empresas-blue' >
-                        <a href="http://www.app018.eyncor.com/jevaro_oriente/acceso/" target="_blank" rel="noopener noreferrer">
-                         JEVARO CENTRO ORIENTE
+                            PETROLEO FLUVIALES EIRL(Grifo Flotante Don Rafa)
                         </a>
                     </ListGroup.Item>
 
                     <ListGroup.Item className='empresas-white' >
+                        <a href="http://www.app018.eyncor.com/jevaro_oriente/acceso/" target="_blank" rel="noopener noreferrer">
+                            JEVARO CENTRO ORIENTE
+                        </a>
+                    </ListGroup.Item>
+
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app221.eyncor.com/carmencita/acceso/" target="_blank" rel="noopener noreferrer">
                             COMERCIAL CARMENCITA SRL
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app236.eyncor.com/nikkei/acceso/" target="_blank" rel="noopener noreferrer">
                             NIKKEI (SANTISTEBAN BROTHERS SAC)
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app212.eyncor.com/balarezo_jorge/acceso/" target="_blank" rel="noopener noreferrer">
                             JORGE BALAREZO
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app213.eyncor.com/balarezo_laesperanza/acceso/" target="_blank" rel="noopener noreferrer">
                             LA ESPERANZA SAC (Mocupe)
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app215.eyncor.com/balarezo_ruben/acceso/" target="_blank" rel="noopener noreferrer">
                             RUBEN BALAREZO (Estación Guadalupe / Estación Pueblo Nuevo)
                         </a>
                     </ListGroup.Item>
 
-                
+
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app003.eyncor.com/serviplaza/acceso/" target="_blank" rel="noopener noreferrer">
@@ -252,81 +258,81 @@ const AccesoClientes = () => {
 
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app032.eyncor.com/carlos_leo/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFOS FITZCARRALD (CARLOS LEO OLIVERA S.A.)
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app232.eyncor.com/briseida_cano/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFO DEUS (CANO VILCA BRISEIDA)
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app233.eyncor.com/grifo_muruhuay/acceso/" target="_blank" rel="noopener noreferrer">
                             M & Y SEÑOR DE MURUHUAY S.A.C.
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app209.eyncor.com/gsanjose_quisocala/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFO AREQUIPA (QUISOCALA HUANCO EDGAR DAVID)
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app236.eyncor.com/gsanjose_edxxonfuel/acceso/" target="_blank" rel="noopener noreferrer">
                             CORPORACION EDXXON FUEL E.I.R.L
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app219.eyncor.com/grupo_meli/acceso/" target="_blank" rel="noopener noreferrer">
                             GRUPO MELI S.A.C.
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app012.eyncor.com/corporacion_pyx/acceso/" target="_blank" rel="noopener noreferrer">
                             CORPORACION PYX S.A.C.
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app213.eyncor.com/san_juan/acceso/" target="_blank" rel="noopener noreferrer">
                             MULTISERVICIOS SAN JUAN BAUTISTA-JULCAN SAC
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app216.eyncor.com/jemari/acceso/" target="_blank" rel="noopener noreferrer">
                             EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app201.eyncor.com/panasur_grupo/acceso/" target="_blank" rel="noopener noreferrer">
                             GRUPO PANASUR S.R.L.
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app202.eyncor.com/panasur_grifo/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFO SECOCHA S.R.L.
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app203.eyncor.com/stacion_mysol/acceso/" target="_blank" rel="noopener noreferrer">
                             STACION MY SOL S.A.C.
                         </a>
@@ -334,18 +340,14 @@ const AccesoClientes = () => {
 
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app206.eyncor.com/stacion_sur/acceso/" target="_blank" rel="noopener noreferrer">
                             STACION SUR S.A.C.
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-blue' >
-                        <a href="http://www.app209.eyncor.com/grifo_ohim/acceso/" target="_blank" rel="noopener noreferrer">
-                            GRIFO ELOHIM S.A.C.
-                        </a>
-                    </ListGroup.Item>
+                 
 
 
 
@@ -402,7 +404,7 @@ const AccesoClientes = () => {
 
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app003.eyncor.com/inversiones_nolasco/acceso/" target="_blank" rel="noopener noreferrer">
                             INVERSIONES NOLASCO & AQUINO HERMANOS S.C.R.L.
                         </a>
@@ -411,27 +413,27 @@ const AccesoClientes = () => {
 
 
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app001.eyncor.com/estacion_metro/acceso/" target="_blank" rel="noopener noreferrer">
                             ESTACIÓN DE SERVICIOS METRO SAC
                         </a>
                     </ListGroup.Item>
 
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app007.eyncor.com/enecom/acceso/" target="_blank" rel="noopener noreferrer">
                             ENECON INVERSIONES S.A.C.
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app009.eyncor.com/don_romulo/acceso/" target="_blank" rel="noopener noreferrer">
                             ESTACION DE SERVICIOS DON ROMULO S.A.
                         </a>
                     </ListGroup.Item>
 
 
-    
+
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app012.eyncor.com/prixval/acceso/" target="_blank" rel="noopener noreferrer">
                             GRIFOS PRIXVAL S.A.C.
@@ -573,6 +575,12 @@ const AccesoClientes = () => {
                         </a>
                     </ListGroup.Item>
 
+                    <ListGroup.Item className='empresas-blue' >
+                        <a href="http://www.app209.eyncor.com/grifo_ohim/acceso/" target="_blank" rel="noopener noreferrer">
+                            GRIFO ELOHIM S.A.C.
+                        </a>
+                    </ListGroup.Item>
+
                     <ListGroup.Item className='cabecera-item' >PLANTA COMERCIALIZADORA DE OXIGENO</ListGroup.Item>
 
                     <ListGroup.Item className='empresas-white' >
@@ -581,9 +589,18 @@ const AccesoClientes = () => {
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='cabecera-item' >EMPRESA DE TRANSPORTES</ListGroup.Item>
+                    <ListGroup.Item className='cabecera-item' > EMPRESAS DE VENTAS Y COMERCIALIZACIÓN DE PRODUCTOS DE IMPORTACIÓN </ListGroup.Item>
 
                     <ListGroup.Item className='empresas-blue' >
+                        <a href="http://www.app212.eyncor.com/jevaro_gasbel/acceso/" target="_blank" rel="noopener noreferrer">
+                            GASBEL EQUIPOS & ASESORIA SAC / Venta de Repuestos E Importadora
+                        </a>
+                    </ListGroup.Item>
+
+
+                    <ListGroup.Item className='cabecera-item' >EMPRESA DE TRANSPORTES</ListGroup.Item>
+
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app201.eyncor.com/caxa_markdasa/acceso/" target="_blank" rel="noopener noreferrer">
                             EMPRESA DE TRANSPORTES MARK DA SA
                         </a>
@@ -684,51 +701,51 @@ const AccesoClientes = () => {
                     </ListGroup.Item>
 
 
-                    
+
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app210.eyncor.com/triangulo_taller/acceso/" target="_blank" rel="noopener noreferrer">
-                        YOJANA RODRIGUEZ SANCHEZ (TALLER DE REPARACION DE AUTOS)
+                            YOJANA RODRIGUEZ SANCHEZ (TALLER DE REPARACION DE AUTOS)
                         </a>
                     </ListGroup.Item>
 
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app208.eyncor.com/triangulo_market/acceso/" target="_blank" rel="noopener noreferrer">
-                        INVERSIONES Y SERVICIOS Y & M SRL (MARKET/RESTAURANT)
+                            INVERSIONES Y SERVICIOS Y & M SRL (MARKET/RESTAURANT)
                         </a>
                     </ListGroup.Item>
 
 
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app214.eyncor.com/balarezo_multitransportes/acceso/" target="_blank" rel="noopener noreferrer">
-                        MULTITRANSPORTES DE CARGA EIRL
+                            MULTITRANSPORTES DE CARGA EIRL
                         </a>
                     </ListGroup.Item>
 
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app211.eyncor.com/balarezo_bago/acceso/" target="_blank" rel="noopener noreferrer">
-                        SERVICIOS BAGO SAC (DISTRIBUIDORA DE AGUA)
+                            SERVICIOS BAGO SAC (DISTRIBUIDORA DE AGUA)
                         </a>
                     </ListGroup.Item>
 
 
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app220.eyncor.com/ave_negocios/acceso/" target="_blank" rel="noopener noreferrer">
-                        AVE NEGOCIOS E.I.R.L.
+                            AVE NEGOCIOS E.I.R.L.
                         </a>
                     </ListGroup.Item>
 
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app219.eyncor.com/triangulo_yojana/acceso/" target="_blank" rel="noopener noreferrer">
-                        RODRIGUEZ SANCHEZ YOJANA(ALQUILER DEPARTAMENTO)
+                            RODRIGUEZ SANCHEZ YOJANA(ALQUILER DEPARTAMENTO)
                         </a>
                     </ListGroup.Item>
 
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app237.eyncor.com/aura_consultoria/acceso/" target="_blank" rel="noopener noreferrer">
-                        AURA CONSULTORIA ASESORIA Y CONSTRUCCION SRL
+                            AURA CONSULTORIA ASESORIA Y CONSTRUCCION SRL
                         </a>
                     </ListGroup.Item>
 
@@ -736,23 +753,23 @@ const AccesoClientes = () => {
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app219.eyncor.com/clavijo_inversiones/acceso/" target="_blank" rel="noopener noreferrer">
-                        INVERSIONES CLAVIJO SAC
+                            INVERSIONES CLAVIJO SAC
                         </a>
                     </ListGroup.Item>
 
 
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app009.eyncor.com/eyncor/acceso/" target="_blank" rel="noopener noreferrer">
-                        CORPORACION EYNCOR SAC
+                            CORPORACION EYNCOR SAC
                         </a>
                     </ListGroup.Item>
 
-                       
+
                     <ListGroup.Item className='cabecera-item' >INSTITUTO DE EDUCACION SUPERIOR</ListGroup.Item>
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="https://www.eyncor.com/acceso-sistema-clientes#" target="_blank" rel="noopener noreferrer">
-                        ISEP  HNO. VICTORINO ELORZ GOICOECHEA"- CAJAMARCA
+                            ISEP  HNO. VICTORINO ELORZ GOICOECHEA"- CAJAMARCA
                         </a>
                     </ListGroup.Item>
 
@@ -761,21 +778,21 @@ const AccesoClientes = () => {
 
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app235.eyncor.com/camaracaj/acceso/" target="_blank" rel="noopener noreferrer">
-                        CAMARA DE COMERCIO Y PRODUCCION DE CAJAMARCA
+                            CAMARA DE COMERCIO Y PRODUCCION DE CAJAMARCA
                         </a>
                     </ListGroup.Item>
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="https://www.eyncor.com/acceso-sistema-clientes#" target="_blank" rel="noopener noreferrer">
-                        COLEGIO DE ABOGADOS DE LA LIBERTAD
+                            COLEGIO DE ABOGADOS DE LA LIBERTAD
                         </a>
                     </ListGroup.Item>
 
 
-                    
 
 
- 
+
+
 
 
 

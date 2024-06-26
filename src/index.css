@@ -98,6 +98,15 @@ body {
   font-size: 14px;
 }
 
+
+.btn_contacto_select {
+  background-color: #0B66C2;
+  height: 40px;
+  color:  white;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
 .btn_contacto:hover{
   background-color: #1466b8;
 }

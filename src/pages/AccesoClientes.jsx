@@ -44,28 +44,38 @@ const AccesoClientes = () => {
 
                         </a>
                     </ListGroup.Item>
+
                     <ListGroup.Item className='empresas-blue' >
+                        <a href="http://www.app218.eyncor.com/naturgas_hidrocarburos/acceso/" target="_blank" rel="noopener noreferrer">
+
+                          NATURGAS PERUANA DE HIDROCARBUROS SAC
+
+                        </a>
+                    </ListGroup.Item>
+
+
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app017.eyncor.com/jevaro_glp_reparto/acceso/" target="_blank" rel="noopener noreferrer">
                             REPARTO GLP SAC
                         </a>
                     </ListGroup.Item>
-                    <ListGroup.Item className='empresas-white'>
+                    <ListGroup.Item className='empresas-blue'>
                         <a href="http://www.app221.eyncor.com/econogas/acceso/" target="_blank" rel="noopener noreferrer">
                             ECONOGAS S.R.LTDA.
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue' >
+                    <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app012.eyncor.com/selva_gas/acceso/" target="_blank" rel="noopener noreferrer"> SELVA GAS NOR ORIENTE E.I.R.L. </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-white' >
+                    <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app012.eyncor.com/juan_gas/acceso/" target="_blank" rel="noopener noreferrer">
                             JUAN GAS SAC
                         </a>
                     </ListGroup.Item>
 
-                    <ListGroup.Item className='empresas-blue'>
+                    <ListGroup.Item className='empresas-white'>
                         <a href="http://www.app012.eyncor.com/hogas_southfork/acceso/" target="_blank" rel="noopener noreferrer">
                             SOUTHFORK EIRL
                         </a>

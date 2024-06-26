@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import eyncor from "../../assets/eyncor.webp";
 import NavLinks from "./NavLinks";
+import Form from 'react-bootstrap/Form';
+
 const Navbar = () => {
 
   const [open, setOpen] = useState(false);
@@ -9,6 +11,13 @@ const Navbar = () => {
   const handleLinkClick = () => {
     setOpen(false);
   };
+
+  const handleSelectChange = (event) => {
+    const url = event.target.value;
+    if (url) {
+      window.open(url, '_blank'); 
+    }
+};
 
   return (
     <nav className="nav_eycnor p-2  lg:p-0 ">
@@ -31,9 +40,16 @@ const Navbar = () => {
          
           <Link to={'/acceso-clientes'}>  <button className="btn_contacto">Acceso clientes</button>    </Link>
 
-          <a href="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/" target="_blank" rel="noopener noreferrer">
-            <button className="btn_contacto">Consulta FE</button>
-          </a>
+         
+
+
+          <select  className="btn_contacto_select" onChange={handleSelectChange}>
+                <option>Consulta General</option>
+                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</option>
+                <option value="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/">Facturacion-vip</option>
+          </select>
+
+          
 
 
           <Link to={"/contacto"}> <button className="btn_contacto">Contáctanos</button> </Link>
@@ -60,9 +76,19 @@ const Navbar = () => {
           </div>
 
           <div onClick={handleLinkClick} className="flex items-center justify-evenly flex-col gap-5">
-            <a href="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/" target="_blank" rel="noopener noreferrer">
-              <button className="btn_contacto">Consulta FE</button>
-            </a>
+
+            
+            
+            
+          <select  className="btn_contacto_select" onChange={handleSelectChange}>
+                <option value="" disabled >Consulta General</option>
+                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</option>
+                <option value="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/">Facturacion-vip</option>
+            </select>
+  
+
+        
+
             <div>
 
               <Link to={"/contacto"}> <button className="btn_contacto">Contáctanos</button> </Link>

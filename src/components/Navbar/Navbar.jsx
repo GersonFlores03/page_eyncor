@@ -19,6 +19,7 @@ const Navbar = () => {
     }
 };
 
+
   return (
     <nav className="nav_eycnor p-2  lg:p-0 ">
       <div className="lg:flex lg:items-center font-medium lg:justify-around">
@@ -38,20 +39,15 @@ const Navbar = () => {
         </ul>
         <div className="hidden sm:flex items-center  lg:block space-x-6">
          
-          <Link to={'/acceso-clientes'}>  <button className="btn_contacto">Acceso clientes</button>    </Link>
+          <Link to={'/acceso-clientes'}>  <button className="btn_contacto">Acceso clientes</button>   </Link>
 
          
-
-
           <select  className="btn_contacto_select" onChange={handleSelectChange}>
                 <option>Consulta General</option>
-                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</option>
-                <option value="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/">Facturacion-vip</option>
+                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php"> Facturacion </option>
           </select>
 
-          
-
-
+      
           <Link to={"/contacto"}> <button className="btn_contacto">Contáctanos</button> </Link>
 
         </div>
@@ -78,16 +74,11 @@ const Navbar = () => {
           <div onClick={handleLinkClick} className="flex items-center justify-evenly flex-col gap-5">
 
             
-            
-            
           <select  className="btn_contacto_select" onChange={handleSelectChange}>
-                <option value="" disabled >Consulta General</option>
-                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</option>
-                <option value="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/">Facturacion-vip</option>
-            </select>
+                <option>Consulta General</option>
+                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php"> Facturacion </option>
+          </select>
   
-
-        
 
             <div>
 

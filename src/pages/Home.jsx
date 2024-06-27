@@ -13,14 +13,14 @@ import banner_conteo from "../assets/banners/banner_conteo.jpg"
 import objetivo from "../assets/icons/objetivo.png"
 import realimentacion from "../assets/icons/realimentacion.png"
 import exito from "../assets/icons/exito.png"
-import banner_presencia from "../assets/portal.webp"
+import banner_presencia from "../assets/portalweb.webp"
 import banner_grifo from "../assets/banners/banner_grifo.webp"
 import banner_glp from "../assets/banners/banner_envasado.webp"
 import banner_tienda from "../assets/banners/banner_tienda.webp"
 import banner_transporte from "../assets/banners/banner_transporte.webp"
 import banner_empleado from "../assets/banners/banner_empleadot.webp"
 import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
-import banner_ventas from "../assets/banners/ventas.png"
+import banner_ventas from "../assets/certificadosweb.webp"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
 
@@ -236,6 +236,18 @@ const Home = () => {
                         alt="Transporte"
                     />
 
+                    <Carousel.Caption className="carousel-caption-centered 
+                    absolute top-[40%] left-[-150px] -translate-y-1/2 text-left pl-[200px]   
+                    lg:absolute lg:top-[60%] lg:left-0 lg:-translate-y-1/2 lg:text-left ñg:pl-[200px]">
+                        <div className='flex flex-col gap-3'>
+                            <strong className='text-xl   lg:text-5xl'>ADQUIERE TU CERTIFICADO DIGITAL</strong>
+                            <div className='hidden text-xl w-9/12  lg:text-xl lg:w-9/12 lg:block'>
+                                <p>Certificado Digital para Factura Electrónica SUNAT</p>
+                            </div>
+                            <Link to={"/transporte"}>  <button className='btn_acceso_header w-[150px] h-[25px]  lg:w-[200px] lg:h-[50px]'>Comienza ahora</button> </Link>
+                        </div>
+                    </Carousel.Caption>
+
                 </Carousel.Item>
 
 
@@ -249,8 +261,8 @@ const Home = () => {
                 <h2 className='eyncor_titulo text-xl text-center mb-3 lg:flex lg:items-center lg:justify-center lg:mb-4 lg:text-5xl'>Encuentra el ERP Adecuado Para Tu Empresa</h2>
                 <h4 className='eyncor_subtitulo text-center text-sm lg:flex lg:items-center lg:justify-center lg:text-xl  mb-16'>Ofrecemos ERP de gestión para optimizar procesos y crear compañías más eficientes y rentables</h4>
                 <section className="min-h-screen bg-gradient-to-br mb-12 from-primary to-primary/70 grid place-items-center md:mb-5">
-                     <AnimatedCard />  
-                  
+                    <AnimatedCard />
+
                 </section>
             </div>
 
@@ -275,7 +287,7 @@ const Home = () => {
                 </div>
             </section>
 
-           
+
             <Testimonial />
 
             {/* Banner conteo */}
@@ -338,7 +350,7 @@ const Home = () => {
                             <p class="mt-4 text-xl leading-relaxed text-gray-600">EYNCOR CLOUD es una solución integral que combina accesibilidad, seguridad, y versatilidad, haciéndola ideal para empresas de todos los tamaños que buscan optimizar sus operaciones y fomentar una mayor colaboración. Con su enfoque en la simplicidad y la eficiencia, se posiciona como una herramienta esencial en el panorama tecnológico actual.</p>
                         </div>
                         <div class="overflow-hidden aspect-w-3 aspect-h-4 lg:hidden">
-                                <img class="object-cover w-full h-full" src={general} alt="cloud" />
+                            <img class="object-cover w-full h-full" src={general} alt="cloud" />
                         </div>
                     </div>
                 </div>

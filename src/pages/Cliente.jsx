@@ -6,10 +6,10 @@ const Cliente = () => {
     return (
         <div className="bg-gray-100 p-4 mt-14  lg:mt-24 mx-auto">
             <div class="text-center mx-auto">
-                <h1 class="text-3xl font-extrabold mb-4">Clientes Satisfechos</h1>
+                <h1 class="text-3xl font-extrabold mb-4 text-blue-500">Clientes Satisfechos</h1>
 
                 <section class="mb-8">
-                    <h2 class="text-2xl font-bold mb-5">Plantas de GLP con Sucursales Integradas a Nivel Nacional</h2>
+                    <h2 class="text-xl font-bold mb-5">Plantas de GLP con Sucursales Integradas a Nivel Nacional</h2>
                     <div class="overflow-x-auto">
 
                         <table class="table-auto  w-full bg-white shadow-md rounded mb-4 ">
@@ -32,9 +32,9 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">HOGAS SAC</td>
                                     <td class="border px-4 py-2">Comercializadora de GLP</td>
                                     <td class="border px-4 py-2">Juliaca y Lima</td>
-                                    <td class="border px-4 py-2"><a target="_blank"  href="https://www.facebook.com/hogas.peru/" class="text-blue-500">https://www.facebook.com/hogas.peru/</a></td>
+                                    <td class="border px-4 py-2"><a target="_blank" href="https://www.facebook.com/hogas.peru/" class="text-blue-500">https://www.facebook.com/hogas.peru/</a></td>
                                 </tr>
-                               
+
                                 <tr>
                                     <td class="border px-4 py-2">NATURGAS DEL PERU SAC</td>
                                     <td class="border px-4 py-2">Venta de GLP</td>
@@ -47,12 +47,20 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">Arequipa</td>
                                     <td class="border px-4 py-2"><a target="_blank" href="http://naturgas.com.pe/nosotros.html" class="text-blue-500">www.naturgas.com.pe</a></td>
                                 </tr>
-                                
+
                                 <tr>
-                                    <td class="border px-4 py-2">CORPORACION NATURGAS DEL PERU SAC</td>
+                                    <td class="border px-4 py-2">NATURGAS PERUANA DE HIDROCARBUROS SAC</td>
                                     <td class="border px-4 py-2">Venta de GLP</td>
-                                    <td class="border px-4 py-2">Arequipa</td>
-                                    <td class="border px-4 py-2"><a target="_blank" href="http://naturgas.com.pe/nosotros.html" class="text-blue-500">www.naturgas.com.pe</a></td>
+                                    <td class="border px-4 py-2">-</td>
+                                    <td class="border px-4 py-2">-</td>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">SOUTHFORK EIRL</td>
+                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">-</td>
+                                    <td class="border px-4 py-2">-</td>
                                 </tr>
 
                                 <tr>
@@ -66,6 +74,13 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">Venta de GLP</td>
                                     <td class="border px-4 py-2">Lima</td>
                                     <td class="border px-4 py-2"><a target="_blank" href="https://www.econogas.pe/" class="text-blue-500">www.econogas.pe</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">SOUTHFORK EIRL</td>
+                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">-</td>
+                                    <td class="border px-4 py-2">-</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -143,7 +158,7 @@ const Cliente = () => {
 
                                 {/* ------------------------------------------------------------  */}
 
-                                
+
                                 <tr>
                                     <td class="border px-4 py-2">MULTISERVICIOS H & H SAN FRANCISCO SAC (JULIACA)</td>
                                     <td class="border px-4 py-2">Grifos</td>
@@ -215,6 +230,386 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">ESTACIÓN DE SERVICIOS PETROLEO FLUVIALES EIRL / GRIFOS (UCAYALI)</td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRIFO DEUS (CANO VILCA BRISEIDA)
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> -- </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    M & Y SEÑOR DE MURUHUAY S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRIFO AREQUIPA (QUISOCALA HUANCO EDGAR DAVID)
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRUPO MELI S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ucayali, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    CORPORACION PYX S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    MULTISERVICIOS SAN JUAN BAUTISTA-JULCAN SAC
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> La Libertad, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Moquegua, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Moquegua, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      GRUPO PANASUR S.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                     GRIFO SECOCHA S.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    STACION MY SOL S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      STACION SUR S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      DISCOM D&M S.A.C.(GRIFO DISCOM)
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      COSERMAN S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                       CONTIGAS S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRUPO H SAN JUAN S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> La Libertad, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                     A.L. MARS E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    JHARUT ENERGY GAS E.I.R.L
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Cajamarca, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    EE.SS BARRANCA(MARIANO DUEÑAS WILSON ELICEO)
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> -- </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    INVERSIONES NOLASCO & AQUINO HERMANOS S.C.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Huanuco, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    ESTACIÓN DE SERVICIOS METRO SAC
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                       ENECON INVERSIONES S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ayacucho, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    ESTACION DE SERVICIOS DON ROMULO S.A.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Piura, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRIFOS PRIXVAL S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  La Libertad, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    ESTACION DE SERVICIOS MARVISALINAS S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  La Libertad, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      SERVICENTRO EL MAJEÑO S.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    SERVICENTRO EL PAMPACOLQUINO E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    SERVICENTRO EL CONDESUYANO E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    SERVICENTRO EL COLONO S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    CONTIGAS D&M SAC
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    ESTACIONES GASOCENTRO SERVICIOS EL JORDAN E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRIFO EL JORDAN E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                    GRIFO EL JORDAN Y SERVICIOS GENERALES E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">GRUPOAQP SUR SRL</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">COMBUSAT S.A.C.</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">   Arequipa, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">INVERSIONES MCV SAC</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">  Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">CONSTRUCTORA LUNIC SAC</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">DISCOM SANTA ROSA SAC</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Lima, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">ESTACIÓN DE SERV. ESPINOZA ORE HNOS SRL</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">Huancavelica, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">GRIFO Y SERVICIOS HORIZONTE SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">Piura, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">ESTACIÓN DE SERVICIOS RETA S.A.C.</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">Piura, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">ML INVERSIONES LOGISTICAS S.A.C.</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">Ucayali, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="border px-4 py-2">GRIFO LINO S.R.L.</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">Moquegua, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">GRIFO ELOHIM S.A.C.
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">Ancash, Perú</td>
                                     <td class="border px-4 py-2">--</td>
                                 </tr>
 
@@ -297,6 +692,14 @@ const Cliente = () => {
                                     <td class="border px-4 py-2"></td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">ARIASOL S.A.C.</td>
+                                    <td class="border px-4 py-2">Transporte</td>
+                                    <td class="border px-4 py-2">Arequipa, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -404,6 +807,85 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">Bodega</td>
                                     <td class="border px-4 py-2">Tumbes</td>
                                     <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">INVERSIONES CLAVIJO SAC</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">Piura, Perú</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                     AVE NEGOCIOS E.I.R.L.
+                                    </td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">Ancash, Perú</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                     AURA CONSULTORIA ASESORIA Y CONSTRUCCION SRL
+                                    </td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">Callao, Perú</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold mb-2">INSTITUTO DE EDUCACION SUPERIOR</h2>
+                    <div class="overflow-x-auto">
+                        <table class="table-auto w-full bg-white shadow-md rounded mb-4">
+                            <thead>
+                                <tr class="bg-gray-200 text-gray-700">
+                                    <th class="px-4 py-2">Empresa</th>
+                                    <th class="px-4 py-2">Descripción</th>
+                                    <th class="px-4 py-2">Ubicaciones</th>
+                                    <th class="px-4 py-2">Sitio Web</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border px-4 py-2">ISEP HNO. VICTORINO ELORZ GOICOECHEA"- CAJAMARCA</td>
+                                    <td class="border px-4 py-2">Instituto</td>
+                                    <td class="border px-4 py-2">Cajamarca</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold mb-2">COLEGIOS PROFESIONALES</h2>
+                    <div class="overflow-x-auto">
+                        <table class="table-auto w-full bg-white shadow-md rounded mb-4">
+                            <thead>
+                                <tr class="bg-gray-200 text-gray-700">
+                                    <th class="px-4 py-2">Empresa</th>
+                                    <th class="px-4 py-2">Descripción</th>
+                                    <th class="px-4 py-2">Ubicaciones</th>
+                                    <th class="px-4 py-2">Sitio Web</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border px-4 py-2">CAMARA DE COMERCIO Y PRODUCCION DE CAJAMARCA</td>
+                                    <td class="border px-4 py-2">Colegios</td>
+                                    <td class="border px-4 py-2">Cajamarca</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+                                <tr>
+                                    <td class="border px-4 py-2">COLEGIO DE ABOGADOS DE LA LIBERTAD</td>
+                                    <td class="border px-4 py-2">Colegios</td>
+                                    <td class="border px-4 py-2">Libertad</td>
+                                    <td class="border px-4 py-2">--</td>
                                 </tr>
                             </tbody>
                         </table>

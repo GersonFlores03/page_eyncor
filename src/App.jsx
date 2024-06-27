@@ -39,6 +39,7 @@ import Colegios from "./pages/Colegios"
 import ChatContenido from "../src/components/ChatContenido"
 import AccesoClientes from "./pages/AccesoClientes"
 import CorreoProvider from "./context/CorreoProvider"
+import NotFound from "./pages/NotFound"
 
 
 function App() {
@@ -115,7 +116,16 @@ function App() {
                 <Route path="/orden" element={<OrderForms />} />
                 <Route path="/detalle" element={<DetalleOrden />} />
               </Route>
+
+
+
+
+
+              <Route path="*" element={<NotFound />} />
             </Routes>
+
+
+            
 
 
           </main>

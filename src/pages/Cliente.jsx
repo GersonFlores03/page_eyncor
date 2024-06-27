@@ -64,6 +64,13 @@ const Cliente = () => {
                                 </tr>
 
                                 <tr>
+                                    <td class="border px-4 py-2">SELVA GAS NOR ORIENTE E.I.R.L.</td>
+                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">-</td>
+                                    <td class="border px-4 py-2">-</td>
+                                </tr>
+
+                                <tr>
                                     <td class="border px-4 py-2">REPARTO GLP SAC</td>
                                     <td class="border px-4 py-2">Venta de GLP</td>
                                     <td class="border px-4 py-2">Lima</td>
@@ -700,6 +707,13 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">--</td>
                                 </tr>
 
+                                <tr>
+                                    <td class="border px-4 py-2">TRANSPORTES BRUSELAS E.I.R.L.(CRM)</td>
+                                    <td class="border px-4 py-2">Transporte</td>
+                                    <td class="border px-4 py-2">Lambayeque, Perú</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -831,6 +845,15 @@ const Cliente = () => {
                                     </td>
                                     <td class="border px-4 py-2">--</td>
                                     <td class="border px-4 py-2">Callao, Perú</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      INVERSIONES CLAVIJO SAC
+                                    </td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">Piura, Perú</td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
 

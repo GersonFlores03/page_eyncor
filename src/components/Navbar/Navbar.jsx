@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import eyncor from "../../assets/eyncor.webp";
 import NavLinks from "./NavLinks";
-import Form from 'react-bootstrap/Form';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 const Navbar = () => {
 
@@ -12,14 +13,7 @@ const Navbar = () => {
     setOpen(false);
   };
 
-  const handleSelectChange = (event) => {
-    const url = event.target.value;
-    if (url) {
-      window.open(url, '_blank'); 
-    }
-};
-
-
+ 
   return (
     <nav className="nav_eycnor p-2  lg:p-0 ">
       <div className="lg:flex lg:items-center font-medium lg:justify-around">
@@ -37,17 +31,17 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="hidden sm:flex items-center  lg:block space-x-6">
-         
+        <div className="hidden sm:flex lg:flex items-center space-x-6">
+
           <Link to={'/acceso-clientes'}>  <button className="btn_contacto">Acceso clientes</button>   </Link>
 
-         
-          <select  className="btn_contacto_select" onChange={handleSelectChange}>
-                <option>Consulta General</option>
-                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php"> Facturacion </option>
-          </select>
 
-      
+          <DropdownButton className="drop-select" id="dropdown-basic-button" title="Consulta General">
+            <Dropdown.Item target="_blank" href="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</Dropdown.Item>
+
+          </DropdownButton>
+
+
           <Link to={"/contacto"}> <button className="btn_contacto">Contáctanos</button> </Link>
 
         </div>
@@ -71,28 +65,28 @@ const Navbar = () => {
 
           </div>
 
-          <div onClick={handleLinkClick} className="flex items-center justify-evenly flex-col gap-5">
+          <div className="flex items-center justify-evenly flex-col gap-5">
 
-            
-          <select  className="btn_contacto_select" onChange={handleSelectChange}>
-                <option>Consulta General</option>
-                <option value="https://fe.eyncor.com/fe/eyncor_fe/index.php"> Facturacion </option>
-          </select>
-  
 
-            <div>
+            <DropdownButton className="drop-select" id="dropdown-basic-button" title="Consulta General">
+              <Dropdown.Item target="_blank" href="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</Dropdown.Item>
+
+            </DropdownButton>
+
+
+            <div onClick={handleLinkClick}>
 
               <Link to={"/contacto"}> <button className="btn_contacto">Contáctanos</button> </Link>
 
             </div>
 
-            <div className="mb-10">
+            <div onClick={handleLinkClick} className="mb-10">
 
               <Link to={"/acceso-clientes"}> <button className="btn_contacto">Acceso Clientes</button> </Link>
 
             </div>
 
-            <Link to={"/"}> <img src={eyncor} className=" w-40  lg:w-60 lg:h-20 cursor-pointer object-contain" alt="eyncorlogo" /> </Link>
+            <Link onClick={handleLinkClick} to={"/"}> <img src={eyncor} className=" w-40  lg:w-60 lg:h-20 cursor-pointer object-contain" alt="eyncorlogo" /> </Link>
           </div>
         </ul>
       </div>

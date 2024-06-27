@@ -79,23 +79,14 @@ body {
   border-radius: 8px;
 }
 
-/*  
-.btn_acceso_nav{
-  font-size: 0.9rem;
-  width: 1080px;
-  height: 40px;
-  border-radius: 8px ;
-  background-color: #0B66C2;
-}
 
-*/
 
 .btn_contacto {
-  background-color: #0B66C2;
+  background-color: #0C6EFD;
   width: 120px;
   height: 40px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 

@@ -63,6 +63,13 @@ const Cliente = () => {
                                 </tr>
 
                                 <tr>
+                                    <td class="border px-4 py-2">SELVA GAS NOR ORIENTE E.I.R.L.</td>
+                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">-</td>
+                                    <td class="border px-4 py-2">-</td>
+                                </tr>
+
+                                <tr>
                                     <td class="border px-4 py-2">REPARTO GLP SAC</td>
                                     <td class="border px-4 py-2">Venta de GLP</td>
                                     <td class="border px-4 py-2">Lima</td>
@@ -733,7 +740,11 @@ const Cliente = () => {
                                 <tr>
                                     <td class="border px-4 py-2">TRANSPORTES BRUSELAS E.I.R.L.(CRM)</td>
                                     <td class="border px-4 py-2">Transporte</td>
+<<<<<<< HEAD
                                     <td class="border px-4 py-2">--</td>
+=======
+                                    <td class="border px-4 py-2">Lambayeque, Perú</td>
+>>>>>>> 33b68cdde5a717caa1c97389ba31150619e5aa72
                                     <td class="border px-4 py-2">--</td>
                                 </tr>
 
@@ -889,6 +900,15 @@ const Cliente = () => {
                                     </td>
                                     <td class="border px-4 py-2">--</td>
                                     <td class="border px-4 py-2">Callao, Perú</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                      INVERSIONES CLAVIJO SAC
+                                    </td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">Piura, Perú</td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
 

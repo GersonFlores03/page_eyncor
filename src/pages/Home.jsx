@@ -180,11 +180,6 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-
-
-
-
-
                 {/* Primer banner transporte */}
 
                 <Carousel.Item>
@@ -244,7 +239,7 @@ const Home = () => {
                             <div className='hidden text-xl w-9/12  lg:text-xl lg:w-9/12 lg:block'>
                                 <p>Certificado Digital para Factura Electrónica SUNAT</p>
                             </div>
-                            <Link to={"/transporte"}>  <button className='btn_acceso_header w-[150px] h-[25px]  lg:w-[200px] lg:h-[50px]'>Comienza ahora</button> </Link>
+                            <Link to={"/certificados"}>  <button className='btn_acceso_header w-[150px] h-[25px]  lg:w-[200px] lg:h-[50px]'>Comienza ahora</button> </Link>
                         </div>
                     </Carousel.Caption>
 

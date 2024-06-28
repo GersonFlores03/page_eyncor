@@ -2,7 +2,6 @@
 const Cliente = () => {
 
 
-
     return (
         <div className="bg-gray-100 p-4 mt-14  lg:mt-24 mx-auto">
             <div class="text-center mx-auto">
@@ -53,7 +52,7 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">Venta de GLP</td>
                                     <td class="border px-4 py-2">-</td>
                                     <td class="border px-4 py-2">-</td>
-                                    
+
                                 </tr>
 
                                 <tr>
@@ -77,7 +76,7 @@ const Cliente = () => {
                                 </tr>
 
                                 <tr>
-                                    <td class="border px-4 py-2">SOUTHFORK EIRL</td>
+                                    <td class="border px-4 py-2">SELVA GAS NOR ORIENTE E.I.R.L.</td>
                                     <td class="border px-4 py-2">Venta de GLP</td>
                                     <td class="border px-4 py-2">-</td>
                                     <td class="border px-4 py-2">-</td>
@@ -181,8 +180,15 @@ const Cliente = () => {
                                 </tr>
 
 
+
+
+                                {
+                                    /* ------- */
+                                }
+
+
                                 <tr>
-                                    <td class="border px-4 py-2">CORPORACION EDXXON FUEL EIRL - (PUNO - JULIACA) </td>
+                                    <td class="border px-4 py-2">COMERCIAL CARMENCITA SRL</td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">--</td>
                                     <td class="border px-4 py-2">--</td>
@@ -219,6 +225,14 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">--</td>
                                 </tr>
 
+
+                                <tr>
+                                    <td class="border px-4 py-2">JORGE BALAREZO</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
                                 <tr>
                                     <td class="border px-4 py-2">GRIFOS JUSTINA HUANCO MAMANI (PUNO - JULIACA)</td>
                                     <td class="border px-4 py-2">Grifos</td>
@@ -234,8 +248,15 @@ const Cliente = () => {
                                 </tr>
 
                                 <tr>
+                                    <td class="border px-4 py-2">CORPORACION EDXXON FUEL EIRL - (PUNO - JULIACA) </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
                                     <td class="border px-4 py-2">
-                                    GRIFO DEUS (CANO VILCA BRISEIDA)
+                                        GRIFO DEUS (CANO VILCA BRISEIDA)
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> -- </td>
@@ -244,7 +265,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    M & Y SEÑOR DE MURUHUAY S.A.C.
+                                        M & Y SEÑOR DE MURUHUAY S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Lima, Perú </td>
@@ -253,7 +274,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    GRIFO AREQUIPA (QUISOCALA HUANCO EDGAR DAVID)
+                                        GRIFO AREQUIPA (QUISOCALA HUANCO EDGAR DAVID)
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Arequipa, Perú </td>
@@ -262,7 +283,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    GRUPO MELI S.A.C.
+                                        GRUPO MELI S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ucayali, Perú </td>
@@ -271,7 +292,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    CORPORACION PYX S.A.C.
+                                        CORPORACION PYX S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Lima, Perú </td>
@@ -281,7 +302,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    MULTISERVICIOS SAN JUAN BAUTISTA-JULCAN SAC
+                                        MULTISERVICIOS SAN JUAN BAUTISTA-JULCAN SAC
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> La Libertad, Perú </td>
@@ -290,7 +311,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
+                                        EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Moquegua, Perú </td>
@@ -299,7 +320,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
+                                        EMPRESA DE SERVICIOS MULTIPLES JEMARI E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Moquegua, Perú </td>
@@ -308,7 +329,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                      GRUPO PANASUR S.R.L.
+                                        GRUPO PANASUR S.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Arequipa, Perú </td>
@@ -317,7 +338,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                     GRIFO SECOCHA S.R.L.
+                                        GRIFO SECOCHA S.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Arequipa, Perú </td>
@@ -326,7 +347,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    STACION MY SOL S.A.C.
+                                        STACION MY SOL S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Lima, Perú </td>
@@ -336,7 +357,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                      STACION SUR S.A.C.
+                                        STACION SUR S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ancash, Perú </td>
@@ -345,7 +366,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                      DISCOM D&M S.A.C.(GRIFO DISCOM)
+                                        DISCOM D&M S.A.C.(GRIFO DISCOM)
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Lima, Perú </td>
@@ -354,7 +375,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                      COSERMAN S.A.C.
+                                        COSERMAN S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ancash, Perú </td>
@@ -363,7 +384,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                       CONTIGAS S.A.C.
+                                        CONTIGAS S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Lima, Perú </td>
@@ -372,7 +393,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    GRUPO H SAN JUAN S.A.C.
+                                        GRUPO H SAN JUAN S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> La Libertad, Perú </td>
@@ -381,7 +402,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                     A.L. MARS E.I.R.L.
+                                        A.L. MARS E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ancash, Perú </td>
@@ -390,7 +411,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    JHARUT ENERGY GAS E.I.R.L
+                                        JHARUT ENERGY GAS E.I.R.L
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Cajamarca, Perú </td>
@@ -399,7 +420,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    EE.SS BARRANCA(MARIANO DUEÑAS WILSON ELICEO)
+                                        EE.SS BARRANCA(MARIANO DUEÑAS WILSON ELICEO)
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> -- </td>
@@ -408,7 +429,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    INVERSIONES NOLASCO & AQUINO HERMANOS S.C.R.L.
+                                        INVERSIONES NOLASCO & AQUINO HERMANOS S.C.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Huanuco, Perú </td>
@@ -417,7 +438,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    ESTACIÓN DE SERVICIOS METRO SAC
+                                        ESTACIÓN DE SERVICIOS METRO SAC
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  Lima, Perú </td>
@@ -426,7 +447,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                       ENECON INVERSIONES S.A.C.
+                                        ENECON INVERSIONES S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ayacucho, Perú </td>
@@ -435,7 +456,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    ESTACION DE SERVICIOS DON ROMULO S.A.
+                                        ESTACION DE SERVICIOS DON ROMULO S.A.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Piura, Perú </td>
@@ -444,7 +465,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    GRIFOS PRIXVAL S.A.C.
+                                        GRIFOS PRIXVAL S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  La Libertad, Perú </td>
@@ -454,7 +475,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    ESTACION DE SERVICIOS MARVISALINAS S.A.C.
+                                        ESTACION DE SERVICIOS MARVISALINAS S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  La Libertad, Perú </td>
@@ -463,7 +484,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                      SERVICENTRO EL MAJEÑO S.R.L.
+                                        SERVICENTRO EL MAJEÑO S.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  Arequipa, Perú </td>
@@ -472,7 +493,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    SERVICENTRO EL PAMPACOLQUINO E.I.R.L.
+                                        SERVICENTRO EL PAMPACOLQUINO E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  Arequipa, Perú </td>
@@ -481,7 +502,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    SERVICENTRO EL CONDESUYANO E.I.R.L.
+                                        SERVICENTRO EL CONDESUYANO E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  Arequipa, Perú </td>
@@ -490,7 +511,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    SERVICENTRO EL COLONO S.A.C.
+                                        SERVICENTRO EL COLONO S.A.C.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  Arequipa, Perú </td>
@@ -499,7 +520,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    CONTIGAS D&M SAC
+                                        CONTIGAS D&M SAC
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2">  Lima, Perú </td>
@@ -508,7 +529,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    ESTACIONES GASOCENTRO SERVICIOS EL JORDAN E.I.R.L.
+                                        ESTACIONES GASOCENTRO SERVICIOS EL JORDAN E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ancash, Perú </td>
@@ -517,7 +538,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    GRIFO EL JORDAN E.I.R.L.
+                                        GRIFO EL JORDAN E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ancash, Perú </td>
@@ -526,7 +547,16 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                    GRIFO EL JORDAN Y SERVICIOS GENERALES E.I.R.L.
+                                        SERVICENTRO TRIANGULO DE ORO SRLTA
+                                    </td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2"> Ancash, Perú </td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">
+                                        GRIFO EL JORDAN Y SERVICIOS GENERALES E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">Grifos</td>
                                     <td class="border px-4 py-2"> Ancash, Perú </td>
@@ -700,6 +730,13 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">--</td>
                                 </tr>
 
+                                <tr>
+                                    <td class="border px-4 py-2">TRANSPORTES BRUSELAS E.I.R.L.(CRM)</td>
+                                    <td class="border px-4 py-2">Transporte</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -802,10 +839,31 @@ const Cliente = () => {
                                     <td class="border px-4 py-2">Ancash</td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">INVERSIONES Y SERVICIOS Y & M SRL (MARKET/RESTAURANT)</td>
+                                    <td class="border px-4 py-2">Servicios</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
                                 <tr>
                                     <td class="border px-4 py-2">BODEGA DIEGO</td>
                                     <td class="border px-4 py-2">Bodega</td>
                                     <td class="border px-4 py-2">Tumbes</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">MULTITRANSPORTES DE CARGA EIRL</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="border px-4 py-2">RODRIGUEZ SANCHEZ YOJANA(ALQUILER DEPARTAMENTO)</td>
+                                    <td class="border px-4 py-2">--</td>
+                                    <td class="border px-4 py-2">--</td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
 
@@ -818,7 +876,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                     AVE NEGOCIOS E.I.R.L.
+                                        AVE NEGOCIOS E.I.R.L.
                                     </td>
                                     <td class="border px-4 py-2">--</td>
                                     <td class="border px-4 py-2">Ancash, Perú</td>
@@ -827,7 +885,7 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">
-                                     AURA CONSULTORIA ASESORIA Y CONSTRUCCION SRL
+                                        AURA CONSULTORIA ASESORIA Y CONSTRUCCION SRL
                                     </td>
                                     <td class="border px-4 py-2">--</td>
                                     <td class="border px-4 py-2">Callao, Perú</td>

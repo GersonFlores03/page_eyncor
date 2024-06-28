@@ -647,8 +647,6 @@ const AccesoClientes = () => {
                         </a>
                     </ListGroup.Item>
 
-
-
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app009.eyncor.com/crm_bruselas/acceso/" target="_blank" rel="noopener noreferrer">
                             TRANSPORTES BRUSELAS E.I.R.L.(CRM)

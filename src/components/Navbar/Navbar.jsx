@@ -13,7 +13,7 @@ const Navbar = () => {
     setOpen(false);
   };
 
- 
+
   return (
     <nav className="nav_eycnor p-2  lg:p-0 ">
       <div className="lg:flex lg:items-center font-medium lg:justify-around">
@@ -36,9 +36,9 @@ const Navbar = () => {
           <Link to={'/acceso-clientes'}>  <button className="btn_contacto">Acceso clientes</button>   </Link>
 
 
-          <DropdownButton className="drop-select" id="dropdown-basic-button" title="Consulta General">
-            <Dropdown.Item target="_blank" href="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</Dropdown.Item>
-
+          <DropdownButton className="drop-select" id="dropdown-basic-button" title="Consulta FE">
+            <Dropdown.Item target="_blank" href="https://fe.eyncor.com/fe/eyncor_fe/index.php">Consulta FE Generica</Dropdown.Item>
+            <Dropdown.Item target="_blank" href="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/">Consulta FE VIP</Dropdown.Item>
           </DropdownButton>
 
 
@@ -68,9 +68,9 @@ const Navbar = () => {
           <div className="flex items-center justify-evenly flex-col gap-5">
 
 
-            <DropdownButton className="drop-select" id="dropdown-basic-button" title="Consulta General">
-              <Dropdown.Item target="_blank" href="https://fe.eyncor.com/fe/eyncor_fe/index.php">Facturacion</Dropdown.Item>
-
+            <DropdownButton className="drop-select" id="dropdown-basic-button" title="Consulta FE">
+              <Dropdown.Item target="_blank" href="https://fe.eyncor.com/fe/eyncor_fe/index.php">Consulta FE Generica</Dropdown.Item>
+              <Dropdown.Item target="_blank" href="http://www.app.eyncor.com/portal_clientes/acceso_eyncor_clientes/">Consulta FE VIP</Dropdown.Item>
             </DropdownButton>
 
 

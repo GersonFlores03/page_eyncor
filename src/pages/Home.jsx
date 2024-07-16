@@ -23,7 +23,6 @@ import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
 import banner_ventas from "../assets/certificadosweb.webp"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
-import FormularioChat from '../components/ChatBot/FormularioChat';
 
 
 const Home = () => {

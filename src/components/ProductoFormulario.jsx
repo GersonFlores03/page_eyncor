@@ -23,7 +23,7 @@ const ProductoFormulario = () => {
 
     return (
 
-        <div class="lg:pl-12 w-[600px]">
+        <div>
             <Toaster position="bottom-right"/>
 
             <div class="overflow-hidden bg-white rounded-md">
@@ -91,8 +91,10 @@ const ProductoFormulario = () => {
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
+         </div>
+
+         
+        </div> 
 
 
     );

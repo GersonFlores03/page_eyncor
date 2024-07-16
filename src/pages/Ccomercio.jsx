@@ -91,7 +91,7 @@ const Ccomercio = () => {
                
             </div>
 
-            <div className='grifos_acordeon flex items-start justify-center lg:items-start lg:justify-around mb-20'>
+            <div className='block lg:flex lg:items-start lg:justify-center mb-20'>
          
 
               <div className='flex-1 lg:max-w-lg'>
@@ -100,7 +100,7 @@ const Ccomercio = () => {
                
                
 
-                <Accordion className='w-80 lg:w-[700px]'>
+                <Accordion className='p-5 lg:w-[700px]'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>MODULO ADMINISTRATIVO COMERCIAL</Accordion.Header>
                         <Accordion.Body>

@@ -15,7 +15,7 @@ import ButtonChatT from "./ChatBot/ButtonChatT";
 import ButtonChatTi from "./ChatBot/ButtonChatTi";
 import ButtonChatC from "./ChatBot/ButtonChatC";
 import ButtonChatA from "./ChatBot/ButtonChatA";
-import {ThemeProvider} from "styled-components"
+import { ThemeProvider } from "styled-components"
 
 const ChatContenido = () => {
 
@@ -67,7 +67,7 @@ const ChatContenido = () => {
   const chatContainerStyle = {
     position: 'fixed',
     bottom: '220px',
-    left: "95px",
+    left: "50px",
     zIndex: '1000',
     width: '300px',
     height: '400px',
@@ -138,7 +138,7 @@ const ChatContenido = () => {
       ],
     },
 
-    
+
 
 
     {
@@ -189,14 +189,14 @@ const ChatContenido = () => {
 
     {
       id: '15',
-      component: <ButtonChat/>,
+      component: <ButtonChat />,
       waitAction: true,
       trigger: '6'
     },
 
 
 
-   
+
     //ERP ADPTABLE
 
     {
@@ -246,7 +246,7 @@ const ChatContenido = () => {
 
     {
       id: '23',
-      component: <ButtonChatA/>,
+      component: <ButtonChatA />,
       waitAction: true,
       trigger: '6'
     },
@@ -286,7 +286,7 @@ const ChatContenido = () => {
       message: '¿Lo que te acabo de mencionar se ajusta a tus necesidades? ¿O hay algo que nos está faltando?',
       trigger: '29'
     },
-    
+
 
     {
       id: '29',
@@ -296,7 +296,7 @@ const ChatContenido = () => {
 
     {
       id: '30',
-      component: <ButtonChatC/>,
+      component: <ButtonChatC />,
       waitAction: true,
       trigger: '6'
     },
@@ -352,13 +352,13 @@ const ChatContenido = () => {
 
     {
       id: '38',
-      component: <ButtonChatG/>,
+      component: <ButtonChatG />,
       waitAction: true,
       trigger: '6'
     },
 
 
-   
+
     //ERP TIENDAS
 
 
@@ -410,7 +410,7 @@ const ChatContenido = () => {
 
     {
       id: '46',
-      component: <ButtonChatTi/>,
+      component: <ButtonChatTi />,
       waitAction: true,
       trigger: '6'
     },
@@ -468,7 +468,7 @@ const ChatContenido = () => {
 
     {
       id: '54',
-      component: <ButtonChatT/>,
+      component: <ButtonChatT />,
       waitAction: true,
       trigger: '6'
     },
@@ -486,16 +486,16 @@ const ChatContenido = () => {
       <div>
 
         <div style={floatingButtonStyle} onClick={handleToggleChat}>
-         
+
           <img style={buttonStyle} src={bot} alt="boton-chat" />
         </div>
 
 
         {showChat && (
           <div style={chatContainerStyle}>
-             <ThemeProvider theme={theme} >
+            <ThemeProvider theme={theme} >
               <ChatBot steps={steps} botBubbleComponent={customBubbleStyle} botAvatar={bot} enableSmoothScroll={true} />
-             </ThemeProvider>
+            </ThemeProvider>
           </div>
         )}
       </div>

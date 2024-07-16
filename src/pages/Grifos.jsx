@@ -62,8 +62,17 @@ const Grifos = () => {
                         src={grifo_banner}
                         alt="glp"
                     />
-                    <Carousel.Caption className="carousel-caption-centered">
+                    <Carousel.Caption className="carousel-caption-centered 
+                    absolute top-[50%] left-[-150px] -translate-y-1/2 text-left pl-[200px]   
+                    lg:absolute lg:top-[60%] lg:left-0 lg:-translate-y-1/2 lg:text-left ñg:pl-[200px]">
+                        <div className='flex flex-col gap-4'>
+                            <strong className='text-2xl  lg:text-5xl'>ERP PARA GRIFOS Y ESTACIONES DE SERVICIOS</strong>
+                            <div className='hidden text-xl w-9/12  lg:text-xl lg:w-9/12 lg:block'>
+                                <p>OTROS SOLO VENDEN SOFTWARE "NOSOTROS TE AYUDAMOS A QUE TU EMPRESA CREZCA".</p>
+                            </div>
 
+
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -74,8 +83,17 @@ const Grifos = () => {
                         src={banner_grifo}
                         alt="glp"
                     />
-                    <Carousel.Caption className="carousel-caption-centered">
+                    <Carousel.Caption className="carousel-caption-centered 
+                    absolute top-[50%] left-[-150px] -translate-y-1/2 text-left pl-[200px]   
+                    lg:absolute lg:top-[60%] lg:left-0 lg:-translate-y-1/2 lg:text-left ñg:pl-[200px]">
+                        <div className='flex flex-col gap-4'>
+                            <strong className='text-2xl  lg:text-5xl'>ERP PARA GRIFOS Y ESTACIONES DE SERVICIOS</strong>
+                            <div className='hidden text-xl w-9/12  lg:text-xl lg:w-9/12 lg:block'>
+                                <p>OTROS SOLO VENDEN SOFTWARE "NOSOTROS TE AYUDAMOS A QUE TU EMPRESA CREZCA".</p>
+                            </div>
 
+
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -112,14 +130,14 @@ const Grifos = () => {
                 </a>
             </div>
 
-            <div className='grifos_acordeon flex items-start justify-center lg:items-start lg:justify-around mb-20'>
+            <div className='grifos_acordeon block lg:flex lg:items-start lg:justify-center mb-20'>
 
 
                 <div className='flex-1 lg:max-w-lg'>
                     <ProductoFormulario />
                 </div>
 
-                <Accordion className='w-80  lg:w-[700px]'>
+                <Accordion className='p-5 lg:w-[700px]'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>MODULO ADMINISTRATIVO COMERCIAL</Accordion.Header>
                         <Accordion.Body>

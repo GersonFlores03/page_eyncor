@@ -25,6 +25,7 @@ import inventario from "../assets/nosotros/almacen.webp"
 import solucion from "../assets/nosotros/solucion.webp"
 import facturacion from "../assets/nosotros/facturacion.webp"
 import { Link } from 'react-router-dom';
+import ProductoFormulario from '../components/ProductoFormulario';
 
 
 const CallCenter = () => {
@@ -92,8 +93,12 @@ const CallCenter = () => {
                 </a>
             </div>
 
-            <div className='grifos_acordeon  flex items-center justify-center  lg:flex lg:items-center lg:justify-around mb-20'>
+            <div className='grifos_acordeon flex items-start justify-center lg:items-start lg:justify-around mb-20'>
+                
 
+              <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
                 <Accordion className='w-80  lg:w-[700px]'>
                     <Accordion.Item eventKey="0">

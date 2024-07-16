@@ -23,6 +23,7 @@ import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
 import banner_ventas from "../assets/certificadosweb.webp"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
+import FormularioChat from '../components/ChatBot/FormularioChat';
 
 
 const Home = () => {
@@ -33,7 +34,7 @@ const Home = () => {
                 <Carousel.Item interval={3000} >
 
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_presencia}
                         alt="presentacion"
                     />
@@ -46,7 +47,7 @@ const Home = () => {
                 <Carousel.Item interval={3000}>
 
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={grifo}
                         alt="grifo"
                     />
@@ -70,7 +71,7 @@ const Home = () => {
                 <Carousel.Item interval={3000}>
 
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_grifo}
                         alt="grifo"
                     />
@@ -97,7 +98,7 @@ const Home = () => {
                 <Carousel.Item interval={3000}>
 
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={glp}
                         alt="glp"
                     />
@@ -122,7 +123,7 @@ const Home = () => {
                 <Carousel.Item interval={3000}>
 
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_glp}
                         alt="glp"
                     />
@@ -146,7 +147,7 @@ const Home = () => {
 
                 <Carousel.Item interval={3000}>
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_tienda}
                         alt="tienda"
                     />
@@ -164,7 +165,7 @@ const Home = () => {
 
                 <Carousel.Item interval={3000}>
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_ferreteria}
                         alt="tienda"
                     />
@@ -184,7 +185,7 @@ const Home = () => {
 
                 <Carousel.Item>
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_empleado}
                         alt="Transporte"
                     />
@@ -206,7 +207,7 @@ const Home = () => {
 
                 <Carousel.Item>
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_transporte}
                         alt="Transporte"
                     />
@@ -226,7 +227,7 @@ const Home = () => {
 
                 <Carousel.Item>
                     <img
-                        className="banner_global d-block w-100 lg:h-[800px]"
+                        className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_ventas}
                         alt="Transporte"
                     />
@@ -369,6 +370,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            
 
         </section>
     );

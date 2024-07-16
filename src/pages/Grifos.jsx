@@ -28,6 +28,7 @@ import proteccion from "../assets/grifo/proteccion.jpg"
 import software from "../assets/grifo/software.jpg"
 import varios_doc from "../assets/grifo/varios_documentos.jpg"
 import banner_grifo from "../assets/banners/banner_grifo.webp"
+import ProductoFormulario from '../components/ProductoFormulario';
 
 
 const Grifos = () => {
@@ -79,7 +80,7 @@ const Grifos = () => {
                 </Carousel.Item>
             </Carousel>
 
-            <div className='eyncor_productos_estaciones mb-3'>
+            <div className='eyncor_productos_estaciones mb-10'>
                 <h2 className='
                 eyncor_titulo 
                 text-center
@@ -111,8 +112,12 @@ const Grifos = () => {
                 </a>
             </div>
 
-            <div className='grifos_acordeon  flex items-center justify-center  lg:flex lg:items-center lg:justify-around mb-20'>
+            <div className='grifos_acordeon flex items-start justify-center lg:items-start lg:justify-around mb-20'>
 
+
+                <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
                 <Accordion className='w-80  lg:w-[700px]'>
                     <Accordion.Item eventKey="0">
@@ -627,6 +632,9 @@ const Grifos = () => {
                 </Accordion>
 
 
+
+
+
             </div>
 
             <div className='eyncor_productos_estaciones'>
@@ -940,6 +948,7 @@ const Grifos = () => {
                     </div>
                 </section>
             </div>
+
 
 
 

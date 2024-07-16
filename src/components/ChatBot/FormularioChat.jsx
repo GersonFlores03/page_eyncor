@@ -3,26 +3,32 @@ import { useForm } from 'react-hook-form';
 import PropTypes from 'prop-types';
 import { useCorreo } from '../../context/CorreoProvider';
 import { Toaster, toast } from 'sonner';
+import axios from 'axios';
 
 
 
 const FormularioChat = ({ triggerNextStep }) => {
 
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit , reset} = useForm();
+    const [correo, setCorreo] = useState({});
 
     const [successMessage, setSuccessMessage] = useState('');
 
-    const { creacionCorreo } = useCorreo();
+    //const { creacionCorreo } = useCorreo();
 
     const onSubmit = (data) => {
         try {
-            creacionCorreo(data)
+            axios.post("http://localhost:8000/enviar_correo.php" , data)
+            .then(res => setCorreo(res.data))
             toast.success('Nuestro equipo se comunicará con usted pronto.');
+            reset();
             triggerNextStep()
         } catch (error) {
             setSuccessMessage('Necesitas llenar los campos');
         }
     };
+
+    
 
 
     return (
@@ -46,7 +52,6 @@ const FormularioChat = ({ triggerNextStep }) => {
                         placeholder='Nombre'
 
                     />
-                    {errors.name && <span className="error">El nombre es requerido</span>}
                 </div>
                 <div className="form-group mb-3">
                     <p className='mb-1' > Teléfono: </p>
@@ -55,7 +60,7 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('telefono', { required: true })}
                         placeholder='Teléfono'
                     />
-                    {errors.phone && <span className="error">El teléfono es requerido</span>}
+                    
                 </div>
                 <div className="form-group mb-3">
                     <p className='mb-1' > Comentario: </p>
@@ -64,7 +69,7 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('comentario', { required: true })}
                         placeholder='Comentario'
                     />
-                    {errors.message && <span className="error">El comentario es requerido</span>}
+                   
                 </div>
 
 
@@ -85,28 +90,3 @@ export default FormularioChat;
 
 
 
-
-/*  
-
- <textarea
-        className='inputDescripcion'
-        {...register('comentario', { required: true })}
-        placeholder='Comentario'
-    />
-
-      <div className="form-group mb-3">
-                    <p className='mb-1'> Comentario: </p>
-                    <select
-                        className='inputDescripcion'
-                        {...register('comentario', { required: true })}
-                    >
-                        <option value="">Selecciona una opción...</option>
-                        <option value="opcion1">Opción 1</option>
-                        <option value="opcion2">Opción 2</option>
-                        <option value="opcion3">Opción 3</option>
-                    </select>
-                    {errors.comentario && <span className="error">Debes seleccionar una opción</span>}
-                </div>
-
-
-*/

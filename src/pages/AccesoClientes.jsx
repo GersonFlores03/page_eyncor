@@ -48,7 +48,7 @@ const AccesoClientes = () => {
                     <ListGroup.Item className='empresas-blue' >
                         <a href="http://www.app218.eyncor.com/naturgas_hidrocarburos/acceso/" target="_blank" rel="noopener noreferrer">
 
-                          NATURGAS PERUANA DE HIDROCARBUROS SAC
+                            NATURGAS PERUANA DE HIDROCARBUROS SAC
 
                         </a>
                     </ListGroup.Item>
@@ -357,7 +357,7 @@ const AccesoClientes = () => {
                     </ListGroup.Item>
 
 
-                 
+
 
 
 
@@ -375,12 +375,17 @@ const AccesoClientes = () => {
                         </a>
                     </ListGroup.Item>
 
+                    
+
 
                     <ListGroup.Item className='empresas-white' >
                         <a href="http://www.app221.eyncor.com/discom_contigas/acceso/" target="_blank" rel="noopener noreferrer">
-                            CONTIGAS S.A.C.
+                            CONTIGAS S.A.C. 
                         </a>
                     </ListGroup.Item>
+
+
+
 
 
                     <ListGroup.Item className='empresas-blue' >

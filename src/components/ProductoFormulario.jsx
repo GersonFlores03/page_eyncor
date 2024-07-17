@@ -45,6 +45,18 @@ const ProductoFormulario = () => {
                                 </div>
                             </div>
 
+                            <div>
+                                <label for="" class="text-base font-medium text-gray-900"> Empresa </label>
+                                <div class="mt-2.5 relative">
+                                    <input
+                                        type="text"
+                                        placeholder="Giro de la Empresa"
+                                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
+                                        {...register('giro', { required: true })}
+                                    />
+                                </div>
+                            </div>
+
 
 
                             <div>
@@ -70,6 +82,34 @@ const ProductoFormulario = () => {
                                     />
                                 </div>
                             </div>
+
+
+                            <div>
+                                <label for="" class="text-base font-medium text-gray-900"> Fecha </label>
+                                <div class="mt-2.5 relative">
+                                    <input
+                                        type="date"
+                                        placeholder="Fecha para la demo"
+                                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
+                                        {...register('fecha', { required: true })}
+                                    />
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <label for="" class="text-base font-medium text-gray-900"> Hora </label>
+                                <div class="mt-2.5 relative">
+                                    <input
+                                        type="time"
+                                        placeholder="Hora para la demo"
+                                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
+                                        {...register('hora', { required: true })}
+                                    />
+                                </div>
+                            </div>
+
+
 
                             <div>
                                 <label for="" class="text-base font-medium text-gray-900"> Comentario </label>

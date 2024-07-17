@@ -105,9 +105,7 @@ const Contabilidad = () => {
 
             <div className='block lg:flex lg:items-start lg:justify-center mb-20'>
                 
-              <div className='flex-1 lg:max-w-lg'>
-                    <ProductoFormulario />
-                </div>
+             
 
 
                 <Accordion className='p-5 lg:w-[700px]'>
@@ -622,7 +620,10 @@ const Contabilidad = () => {
 
                 </Accordion>
 
-
+               
+                <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
 
 

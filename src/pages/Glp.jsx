@@ -104,9 +104,7 @@ const Glp = () => {
 
             <div className='grifos_acordeon block lg:flex lg:items-start lg:justify-center mb-20'>
 
-                <div className='flex-1 lg:max-w-lg'>
-                    <ProductoFormulario />
-                </div>
+               
 
                 <Accordion className='p-5 lg:w-[700px]'>
                     <Accordion.Item eventKey="0">
@@ -459,6 +457,10 @@ const Glp = () => {
                     </Accordion.Item>
 
                 </Accordion>
+
+                <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
             </div>
 

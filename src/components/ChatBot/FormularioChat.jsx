@@ -9,7 +9,7 @@ import axios from 'axios';
 
 const FormularioChat = ({ triggerNextStep }) => {
 
-    const { register, handleSubmit , reset} = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const [correo, setCorreo] = useState({});
 
     const [successMessage, setSuccessMessage] = useState('');
@@ -18,8 +18,8 @@ const FormularioChat = ({ triggerNextStep }) => {
 
     const onSubmit = (data) => {
         try {
-            axios.post("http://localhost:8000/enviar_correo.php" , data)
-            .then(res => setCorreo(res.data))
+            axios.post("http://localhost:8000/enviar_correo.php", data)
+                .then(res => setCorreo(res.data))
             toast.success('Nuestro equipo se comunicará con usted pronto.');
             reset();
             triggerNextStep()
@@ -28,7 +28,7 @@ const FormularioChat = ({ triggerNextStep }) => {
         }
     };
 
-    
+
 
 
     return (
@@ -45,11 +45,24 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('ruc', { required: true })}
                     />
                 </div>
+
                 <div className="form-group mb-3">
-                    <p>Nombre:</p>
+
+                    <p className='mb-1'> Empresa: </p>
+                    <input
+                        className='inputChat' type="text"
+                        placeholder='Giro de la Empresa'
+                        {...register('giro', { required: true })}
+                    />
+                </div>
+
+
+
+                <div className="form-group mb-3">
+                    <p>Nombres y Apellidos:</p>
                     <input className='inputChat'
                         type="text" {...register('nombre', { required: true })}
-                        placeholder='Nombre'
+                        placeholder='Nombre y Apellidos'
 
                     />
                 </div>
@@ -60,8 +73,33 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('telefono', { required: true })}
                         placeholder='Teléfono'
                     />
-                    
+
                 </div>
+
+
+                <div className="form-group mb-3">
+
+                    <p className='mb-1'> Fecha: </p>
+                    <input
+                        className='inputChat' type="date"
+                        placeholder='Fecha para la demo'
+                        {...register('fecha', { required: true })}
+                    />
+                </div>
+
+                <div className="form-group mb-3">
+
+                    <p className='mb-1'>Hora: </p>
+                    <input
+                        className='inputChat' type="time"
+                        placeholder='Hora para la demo'
+                        {...register('hora', { required: true })}
+                    />
+                </div>
+
+
+
+
                 <div className="form-group mb-3">
                     <p className='mb-1' > Comentario: </p>
                     <textarea
@@ -69,7 +107,7 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('comentario', { required: true })}
                         placeholder='Comentario'
                     />
-                   
+
                 </div>
 
 

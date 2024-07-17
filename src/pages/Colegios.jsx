@@ -79,25 +79,23 @@ const Colegios = () => {
             '>
                     Desde la innovación hasta la transparencia y la responsabilidad.
                 </h4>
-               
-                    <Link to={"/contacto"} >
 
-                        <button className="demo_eyncor top-0 right-0" >
-                            SOLICITA UNA DEMO
-                        </button>
+                <Link to={"/contacto"} >
 
-                    </Link>
+                    <button className="demo_eyncor top-0 right-0" >
+                        SOLICITA UNA DEMO
+                    </button>
 
-               
+                </Link>
+
+
             </div>
 
             <div className='block lg:flex lg:items-start lg:justify-center mb-20'>
 
-                   
-              <div className='flex-1 lg:max-w-lg'>
-                    <ProductoFormulario />
-                </div>
- 
+
+
+
                 <Accordion className='p-5 lg:w-[700px]'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>MODULO ADMINISTRATIVO COMERCIAL</Accordion.Header>
@@ -609,6 +607,10 @@ const Colegios = () => {
 
 
                 </Accordion>
+
+                <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
 
 

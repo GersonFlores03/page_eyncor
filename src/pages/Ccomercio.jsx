@@ -94,9 +94,7 @@ const Ccomercio = () => {
             <div className='block lg:flex lg:items-start lg:justify-center mb-20'>
          
 
-              <div className='flex-1 lg:max-w-lg'>
-                    <ProductoFormulario />
-                </div>
+              
                
                
 
@@ -612,7 +610,10 @@ const Ccomercio = () => {
 
                 </Accordion>
 
-
+               
+                <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
 
 

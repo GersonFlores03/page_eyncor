@@ -132,11 +132,6 @@ const Grifos = () => {
 
             <div className='grifos_acordeon block lg:flex lg:items-start lg:justify-center mb-20'>
 
-
-                <div className='flex-1 lg:max-w-lg'>
-                    <ProductoFormulario />
-                </div>
-
                 <Accordion className='p-5 lg:w-[700px]'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>MODULO ADMINISTRATIVO COMERCIAL</Accordion.Header>
@@ -644,12 +639,17 @@ const Grifos = () => {
                             </ul>
                         </Accordion.Body>
                     </Accordion.Item>
+                    
 
 
 
                 </Accordion>
 
+                
 
+                <div className='flex-1 lg:max-w-lg'>
+                    <ProductoFormulario />
+                </div>
 
 
 

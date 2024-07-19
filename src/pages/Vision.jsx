@@ -127,8 +127,7 @@ const Vision = () => {
                 </div>
             </section>
 
-
-
+            
         </section>
     );
 };

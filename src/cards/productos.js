@@ -11,6 +11,7 @@ import Certificados from "../assets/cardsimg/certificado.webp";
 import camara from "../assets/cardsimg/camara.webp";
 import colegios from "../assets//cardsimg/colegios.webp";
 import taller from "../assets/cardsimg/taller.webp";
+import movil from "../assets/app_gerencial.webp";
 
 
 
@@ -126,6 +127,16 @@ export const CardsVerMas = [
         desc: "Nuestro ERP para colegios profesionales está diseñado para transformar y modernizar la gestión de tu organización, integrando todas las funciones clave en una plataforma centralizada. Ideal para colegios de médicos, abogados, ingenieros y otras profesiones, nuestro sistema ofrece una solución completa para todas tus necesidades administrativas.",
         link: "/colegios-profesionales",
     },
+
+    
+    {
+        id: 8,
+        img: movil,
+        title: "APP MÓVIL GERENCIAL",
+        desc: "Mejora la eficiencia de tus procesos con monitoreo en tiempo real a través de nuestra aplicación móvil, disponible al alcance de tus manos.",
+        link: "/",
+    },
+
 
 
 

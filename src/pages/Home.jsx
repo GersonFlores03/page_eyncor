@@ -20,6 +20,7 @@ import banner_tienda from "../assets/banners/banner_tienda.webp"
 import banner_transporte from "../assets/banners/banner_transporte.webp"
 import banner_empleado from "../assets/banners/banner_empleadot.webp"
 import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
+import movil_banner from "../assets/desing_movil.png"
 import banner_ventas from "../assets/certificadosweb.webp"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
@@ -330,6 +331,13 @@ const Home = () => {
             <Servicios />
 
 
+            <div className='movil-banner'>
+
+                <img className='object-cover' src={movil_banner} alt="sunat" />
+
+            </div>
+
+
 
             <section class="py-10 sm:py-16 lg:py-24 flex">
                 <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
@@ -370,7 +378,7 @@ const Home = () => {
                 </div>
             </section>
 
-            
+
 
         </section>
     );

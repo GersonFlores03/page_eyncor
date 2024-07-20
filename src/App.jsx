@@ -40,6 +40,7 @@ import ChatContenido from "../src/components/ChatContenido"
 import AccesoClientes from "./pages/AccesoClientes"
 import CorreoProvider from "./context/CorreoProvider"
 import NotFound from "./pages/NotFound"
+import Modal from "./components/Modal"
 
 
 function App() {
@@ -125,8 +126,6 @@ function App() {
             </Routes>
 
 
-            
-
 
           </main>
 
@@ -134,10 +133,8 @@ function App() {
 
       </AuthProvider>
 
-
-
-
-
+      {/* Modal para publicidad de la aplicacion movil*/}
+      <Modal />
 
 
       <footer>

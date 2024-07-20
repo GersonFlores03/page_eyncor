@@ -487,7 +487,8 @@ const ChatContenido = () => {
 
         <div style={floatingButtonStyle} onClick={handleToggleChat}>
 
-          <img style={buttonStyle} src={bot} alt="boton-chat" />
+          <img style={buttonStyle} src={bot} alt="boton-chat"/>
+
         </div>
 
 

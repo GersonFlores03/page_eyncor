@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from '../components/ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -25,9 +25,13 @@ import banner_ventas from "../assets/certificadosweb.webp"
 import video_movil from "../assets/video_movil.mp4"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
+import Modal from '../components/Modal';
 
 
 const Home = () => {
+
+  
+
     return (
         <section className='eyncorerp_carrusel mt-[53px] lg:mt-[103px] '>
             {/* Z index para que no se muestre encima */}
@@ -184,7 +188,7 @@ const Home = () => {
 
                 {/* Primer banner transporte */}
 
-                <Carousel.Item interval={3000}> 
+                <Carousel.Item interval={3000}>
                     <img
                         className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_empleado}
@@ -292,7 +296,6 @@ const Home = () => {
                 </div>
             </section>
 
-
             <Testimonial />
 
             {/* Banner conteo */}
@@ -386,6 +389,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
 
 
 

@@ -22,6 +22,7 @@ import banner_empleado from "../assets/banners/banner_empleadot.webp"
 import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
 import movil_banner from "../assets/desing_movil.png"
 import banner_ventas from "../assets/certificadosweb.webp"
+import video_movil from "../assets/video_movil.mp4"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
 
@@ -183,7 +184,7 @@ const Home = () => {
 
                 {/* Primer banner transporte */}
 
-                <Carousel.Item>
+                <Carousel.Item interval={3000}> 
                     <img
                         className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_empleado}
@@ -205,7 +206,7 @@ const Home = () => {
 
                 {/*Segundo banner transporte */}
 
-                <Carousel.Item>
+                <Carousel.Item interval={3000} >
                     <img
                         className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_transporte}
@@ -225,7 +226,7 @@ const Home = () => {
                 </Carousel.Item>
 
 
-                <Carousel.Item>
+                <Carousel.Item interval={3000} >
                     <img
                         className="banner_global d-block w-100 lg:h-[650px]"
                         src={banner_ventas}
@@ -247,6 +248,14 @@ const Home = () => {
                 </Carousel.Item>
 
 
+                {/* Video de prueba */}
+
+
+                <Carousel.Item interval={3000}>
+                    <video className='w-full h-full' src={video_movil} autoPlay muted loop></video>
+                    <Carousel.Caption >
+                    </Carousel.Caption>
+                </Carousel.Item>
 
 
             </Carousel>

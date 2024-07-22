@@ -35,7 +35,25 @@ const Home = () => {
     return (
         <section className='eyncorerp_carrusel mt-[53px] lg:mt-[103px]'>
             {/* Z index para que no se muestre encima */}
+
+
             <Carousel className='eyncor_erp_carrusel mb-7 '>
+
+                {/* Video de prueba */}
+
+
+                <Carousel.Item interval={3000}>
+                    <img
+                        className="banner_global d-block w-100 lg:h-[650px]"
+                        src={video_movil}
+                        alt="Transporte"
+                    />
+                    <Carousel.Caption >
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+
+
                 <Carousel.Item interval={3000} >
 
                     <img
@@ -250,20 +268,6 @@ const Home = () => {
                 </Carousel.Item>
 
 
-                {/* Video de prueba */}
-
-
-                <Carousel.Item interval={3000}>
-                    <img
-                        className="banner_global d-block w-100 lg:h-[650px]"
-                        src={video_movil}
-                        alt="Transporte"
-                    />
-                    <Carousel.Caption >
-                    </Carousel.Caption>
-                </Carousel.Item>
-
-
             </Carousel>
 
             {/*  Card Hover  */}
@@ -346,11 +350,11 @@ const Home = () => {
             <Servicios />
 
 
-           {/* ----- Banner movil ----  */}
+            {/* ----- Banner movil ----  */}
 
 
-         
-        
+
+
             {/* ----- EYNCOR CLOUD  ----  */}
 
 
@@ -375,7 +379,7 @@ const Home = () => {
             </section>
 
 
-             {/* ----- EYNCOR 100% WEB Y MOVIL ------  */}
+            {/* ----- EYNCOR 100% WEB Y MOVIL ------  */}
 
             <section class="py-10 sm:py-16 lg:py-24">
                 <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">

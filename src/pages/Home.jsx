@@ -20,7 +20,7 @@ import banner_tienda from "../assets/banners/banner_tienda.webp"
 import banner_transporte from "../assets/banners/banner_transporte.webp"
 import banner_empleado from "../assets/banners/banner_empleadot.webp"
 import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
-import movil_banner from "../assets/desing_movil.png"
+//import movil_banner from "../assets/desing_movil.png"
 import banner_ventas from "../assets/certificadosweb.webp"
 import video_movil from "../assets/banner_portada_movil.webp"
 import { Link } from 'react-router-dom';

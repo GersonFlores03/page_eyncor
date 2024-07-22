@@ -53,7 +53,7 @@ const HomeCertificados = () => {
                                 </li>
                             </ul>
 
-                            <a href="/certificados" title="" class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">  Más información  </a>
+                            <a href="/certificados" title="" class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">  Adquirir Certificados  </a>
                             
                         </div>
                     </div>

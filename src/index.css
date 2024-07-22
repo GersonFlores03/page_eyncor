@@ -832,7 +832,7 @@ table {
   bottom: -50px;
   border-radius: 8px;
   position: relative;
-  max-width: 650px;
+  max-width: 620px;
   object-fit: cover;
   width: 100%;
 }

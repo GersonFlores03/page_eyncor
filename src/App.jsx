@@ -115,12 +115,8 @@ function App() {
             */
           }
 
-
-
-
-
-
           <Route path="*" element={<NotFound />} />
+
           </Routes>
 
 
@@ -128,6 +124,7 @@ function App() {
       </main>
 
       {/* Modal para publicidad de la aplicacion movil*/}
+      
       <Modal />
 
 

@@ -20,7 +20,7 @@ const Certificados = () => {
       <Carousel className='eyncor_erp_carrusel mb-7'>
         <Carousel.Item>
           <img
-            className="banner_global -block w-full h-[300px] lg:h-[600px] "
+            className="banner_global -block w-full h-[300px] lg:h-[600px]"
             src={ventas}
             alt="tienda"
           />
@@ -55,7 +55,7 @@ const Certificados = () => {
                   <div class="p-8 xl:px-12">
                     <h3 class="text-base font-semibold text-purple-600">1 AÑO</h3>
                     <p class="text-5xl font-bold text-black mt-7">S/260.00</p>
-                    <p class="mt-3 text-base text-gray-600">incluye igv</p>
+                    <p class="mt-3 text-base text-gray-600">Incluye igv</p>
 
                     <ul class="inline-flex flex-col items-start space-y-5 text-left mt-9">
                       <li class="inline-flex items-center space-x-2">
@@ -69,7 +69,7 @@ const Certificados = () => {
                         <svg class="flex-shrink-0 w-5 h-5 text-indigo-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
-                        <span class="text-base font-medium text-gray-900"> Compatible con facturador sunat </span>
+                        <span class="text-base font-medium text-gray-900"> Compatible con facturador SUNAT </span>
                       </li>
 
                       <li class="inline-flex items-center space-x-2">
@@ -94,7 +94,7 @@ const Certificados = () => {
                       </li>
                     </ul>
 
-                    <a href="/certificados" title="" class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">  Más información  </a>
+                    <a href="https://api.whatsapp.com/send/?phone=+51948774628&text=Hola" target='_blank' class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">  Adquirir Certificados  </a>
 
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const Certificados = () => {
                         <svg class="flex-shrink-0 w-5 h-5 text-indigo-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
-                        <span class="text-base font-medium text-gray-900"> Compatible con facturador sunat </span>
+                        <span class="text-base font-medium text-gray-900"> Compatible con facturador SUNAT </span>
                       </li>
 
                       <li class="inline-flex items-center space-x-2">
@@ -142,7 +142,7 @@ const Certificados = () => {
                       </li>
                     </ul>
 
-                    <a href="/certificados" title="" class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-md bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-80 focus:opacity-80" role="button"> Más información </a>
+                    <a href="https://api.whatsapp.com/send/?phone=+51948774628&text=Hola" target='_blank' class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-md bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-80 focus:opacity-80" role="button">  Adquirir Certificados   </a>
                   </div>
                 </div>
 
@@ -150,7 +150,7 @@ const Certificados = () => {
                   <div class="p-8 xl:px-12">
                     <h3 class="text-base font-semibold text-purple-600">3 AÑOS</h3>
                     <p class="text-5xl font-bold text-black mt-7">S/650.00</p>
-                    <p class="mt-3 text-base text-gray-600">incluye igv</p>
+                    <p class="mt-3 text-base text-gray-600">Incluye igv</p>
 
                     <ul class="inline-flex flex-col items-start space-y-5 text-left mt-9">
                       <li class="inline-flex items-center space-x-2">
@@ -164,7 +164,7 @@ const Certificados = () => {
                         <svg class="flex-shrink-0 w-5 h-5 text-indigo-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
-                        <span class="text-base font-medium text-gray-900"> Compatible con facturador sunat </span>
+                        <span class="text-base font-medium text-gray-900"> Compatible con facturador SUNAT </span>
                       </li>
 
                       <li class="inline-flex items-center space-x-2">
@@ -189,7 +189,8 @@ const Certificados = () => {
                       </li>
                     </ul>
 
-                    <a href="/certificados" title="" class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button"> Más información </a>
+                    <a href="https://api.whatsapp.com/send/?phone=+51948774628&text=Hola" target='_blank' class="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">  Adquirir Certificados </a>
+
                   </div>
                 </div>
               </div>
@@ -200,7 +201,7 @@ const Certificados = () => {
 
         {/*-----------Nuevo diseño de certificado campos adicionales--------------*/}
 
-        <div className='  lg:flex lg:items-center lg:justify-center gap-10 '>
+        <div className='lg:flex lg:items-center lg:justify-center gap-1'>
 
 
           <div className='lg:mb-[360px]'>
@@ -297,17 +298,19 @@ const Certificados = () => {
 
                   Cuenta de CORPORACION EYNCOR SAC.
                   <br />
-                  BANCO: BANCO CREDITO
+                  BANCO: BANCO CREDITO DEL PERU (BCP)
                   <br />
-                  EMPRESA: CORPORACION EYNCOR SAC
+                  NOMBRE: CORPORACION EYNCOR SAC
                   <br />
                   RUC: 20477441565
                   <br />
                   CUENTA SOLES: 570-2155828-0-13
                   <br />
-                  INTERBANCARIO: 00257000215582801303
+                  INTERBANCARIO: 002-570-002155828013-03
                   <br />
-                  CUENTA EYNCOR DETRACCIÓN (BCO DE LA NACIÓN):00741248212 ( MONTO MAYOR A 700.00 SOLES )
+                  CUENTA DETRACCIÓN EN SOLES
+                  BANCO: BANCA DE LA NACIÓN
+                  CC: 00741248212 (MONTO MAYOR A 700.00 SOLES)
 
                 </Card.Text>
               </Card.Body>
@@ -334,7 +337,7 @@ const Certificados = () => {
                   PASO 1
 
                   Ingresa a EYNCOR ERP
-                  Desde allí podrás solicitar el certificado digital, te enviaremos instrucciones para poder realizar el pago con Tarjetas, transferencia, depósito o Paypal.
+                  Desde allí podrás solicitar el certificado digital, te enviaremos instrucciones para poder realizar el pago con Tarjetas, transferencia o depósito.
 
                 </Card.Text>
 

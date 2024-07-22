@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import PropTypes from 'prop-types';
-import { useCorreo } from '../../context/CorreoProvider';
+//import { useCorreo } from '../../context/CorreoProvider';
 import { Toaster, toast } from 'sonner';
 import axios from 'axios';
 
@@ -14,7 +14,6 @@ const FormularioChat = ({ triggerNextStep }) => {
 
     const [successMessage, setSuccessMessage] = useState('');
 
-    //const { creacionCorreo } = useCorreo();
 
     const onSubmit = (data) => {
         try {

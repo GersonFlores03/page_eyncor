@@ -418,7 +418,6 @@ const ChatContenido = () => {
     //Transporte
 
 
-
     {
       id: '47',
       message: '¿Qué aspectos de la gestión de transporte te gustaría mejorar con nuestro ERP?',

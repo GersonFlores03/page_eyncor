@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import banner_movil from "../assets/app_gerencial.webp"
+import banner_movil from "../assets/banner_movil_publicidad.webp"
 const Modal = () => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -34,7 +34,7 @@ const Modal = () => {
           <button className="close-button" onClick={cerraModal}>
             ×
           </button>
-           <img src={banner_movil} alt="banner-movil"/>
+           <img loading='lazy' src={banner_movil} alt="banner-movil"/>
         </div>
       </div>
     )

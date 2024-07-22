@@ -1,16 +1,16 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { useCorreo } from '../context/CorreoProvider';
+//import { useCorreo } from '../context/CorreoProvider';
 
 const FormularioChat = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const {CorreoProvider} = useCorreo()
+   // const {CorreoProvider} = useCorreo()
 
-    const onSubmit = (data) => {
-        CorreoProvider(data)
-    };
+    //const onSubmit = (data) => {
+        //CorreoProvider(data)
+    //};
 
 
 

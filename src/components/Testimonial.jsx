@@ -62,7 +62,7 @@ const Testimonial = () => {
                 {testimonials.map((testimonial, index) => (
                     <div className="testimonial-card" key={index}>
                         <div>
-                            <img src={testimonial.image} className='circle_testimonios' alt="circle_testimonios" />
+                            <img src={testimonial.image} className='circle_testimonios object-cover' alt="circle_testimonios" />
                         </div>
                         <h3 className="testimonial-author">{testimonial.author}</h3>
                         <p className='testimonios_cargo text-base mb-2'>{testimonial.position}</p>
@@ -72,7 +72,7 @@ const Testimonial = () => {
                 {testimonials.map((testimonial, index) => (
                     <div className="testimonial-card" key={index + testimonials.length}>
                         <div>
-                            <img src={testimonial.image} className='circle_testimonios' alt="circle_testimonios" />
+                            <img src={testimonial.image} className='circle_testimonios object-cover' alt="circle_testimonios" />
                         </div>
                         <h3 className="testimonial-author">{testimonial.author}</h3>
                         <p className='testimonios_cargo text-base mb-2'>{testimonial.position}</p>

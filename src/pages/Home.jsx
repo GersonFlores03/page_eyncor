@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from '../components/ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,7 +22,7 @@ import banner_empleado from "../assets/banners/banner_empleadot.webp"
 import banner_ferreteria from "../assets/banners/banner_ferretaria.webp"
 import movil_banner from "../assets/desing_movil.png"
 import banner_ventas from "../assets/certificadosweb.webp"
-import video_movil from "../assets/video_movil.mp4"
+import video_movil from "../assets/banner_portada_movil.webp"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
 import Modal from '../components/Modal';
@@ -30,10 +30,10 @@ import Modal from '../components/Modal';
 
 const Home = () => {
 
-  
+
 
     return (
-        <section className='eyncorerp_carrusel mt-[53px] lg:mt-[103px] '>
+        <section className='eyncorerp_carrusel mt-[53px] lg:mt-[103px] dark:bg-slate-900 '>
             {/* Z index para que no se muestre encima */}
             <Carousel className='eyncor_erp_carrusel mb-7 '>
                 <Carousel.Item interval={3000} >
@@ -256,7 +256,11 @@ const Home = () => {
 
 
                 <Carousel.Item interval={3000}>
-                    <video className='w-full h-full' src={video_movil} autoPlay muted loop></video>
+                    <img
+                        className="banner_global d-block w-100 lg:h-[650px]"
+                        src={video_movil}
+                        alt="Transporte"
+                    />
                     <Carousel.Caption >
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -297,6 +301,7 @@ const Home = () => {
             </section>
 
             <Testimonial />
+
 
             {/* Banner conteo */}
 
@@ -341,6 +346,8 @@ const Home = () => {
 
 
             <Servicios />
+
+
 
 
             <div className='movil-banner'>

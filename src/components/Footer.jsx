@@ -36,25 +36,39 @@ const Footer = () => {
 
                             <ul class="mt-6 space-y-5">
                                 <li>
-                                    <a href="/grifo" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ERP GRIFOS </a>
+                                    <Link to={"/grifo"}>
+                                        ERP GRIFOS
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="/glp" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ERP GLP </a>
+                                    <Link to={"/glp"}>
+                                        ERP GLP
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="/tienda" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ERP TIENDAS </a>
+                                    <Link to={"/tienda"}>
+                                        ERP TIENDAS
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="/adaptable" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ERP ADAPTABLE </a>
+                                    <Link to={"/adaptable"}>
+                                        ERP ADAPTABLE
+                                    </Link>
+
                                 </li>
                                 <li>
-                                    <a href="/transporte" title="" class="flex text-sm transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ERP TRANSPORTE </a>
+
+                                    <Link to={"/transporte"}>
+                                        ERP TRANSPORTE
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="/contabilidad" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ERP CONTABILIDAD </a>
+                                    <Link to={"/contabilidad"}>
+                                        ERP CONTABILIDAD
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -64,20 +78,23 @@ const Footer = () => {
 
                             <ul class="mt-6 space-y-4">
                                 <li>
-                                    <a href="/nosotros" title="" class="flex text-sm transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> EMPRESA </a>
+                                    <Link to={"/nosotros"}>
+                                        EMPRESA
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="/utiles" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> UTILES </a>
+                                    <Link to={"/utiles"}>
+                                        UTILES
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="/cliente" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> CLIENTE </a>
+                                    <Link to={"/cliente"}>
+                                        CLIENTE
+                                    </Link>
                                 </li>
 
-                                <li>
-                                    <a href="/certificado" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> CERTIFICADOS </a>
-                                </li>
                             </ul>
                         </div>
 
@@ -86,15 +103,18 @@ const Footer = () => {
                             <p class="text-base font-semibold"> Contacto  </p>
                             <ul class="mt-6 space-y-5">
                                 <li>
-                                    <a href="#" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> Ca. Inca Roca 253 Urb. Sta María 1era Etapa Trujillo-Perú </a>
+                                    <p class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600" > Ca. Inca Roca 253 Urb. Sta María 1era Etapa Trujillo-Perú </p>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> ventas@eyncor.com </a>
+                                    <p class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600" > ventas@eyncor.com </p>
+
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600"> 948774628 </a>
+
+                                    <p class="flex text-sm  transition-all duration-200 hover:text-blue-500 focus:text-blue-600" > +51 948774628 </p>
+
                                 </li>
 
                             </ul>

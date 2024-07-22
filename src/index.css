@@ -831,7 +831,7 @@ table {
   padding: 20px;
   border-radius: 8px;
   position: relative;
-  max-width: 500px;
+  max-width: 600px;
   object-fit: cover;
   width: 100%;
 }

@@ -829,9 +829,10 @@ table {
 
 .modal-content {
   padding: 20px;
+  bottom: -50px;
   border-radius: 8px;
   position: relative;
-  max-width: 600px;
+  max-width: 650px;
   object-fit: cover;
   width: 100%;
 }

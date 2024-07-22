@@ -25,7 +25,7 @@ import banner_ventas from "../assets/certificadosweb.webp"
 import video_movil from "../assets/banner_portada_movil.webp"
 import { Link } from 'react-router-dom';
 import Servicios from '../components/Servicios';
-import Modal from '../components/Modal';
+
 
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
 
 
     return (
-        <section className='eyncorerp_carrusel mt-[53px] lg:mt-[103px] dark:bg-slate-900 '>
+        <section className='eyncorerp_carrusel mt-[53px] lg:mt-[103px]'>
             {/* Z index para que no se muestre encima */}
             <Carousel className='eyncor_erp_carrusel mb-7 '>
                 <Carousel.Item interval={3000} >
@@ -43,9 +43,7 @@ const Home = () => {
                         src={banner_presencia}
                         alt="presentacion"
                     />
-                    <Carousel.Caption className="carousel-caption-centered
-                    absolute top-[45%] left-[-150px] -translate-y-1/2 text-left pl-[200px]   
-                     lg:absolute lg:top-[60%] lg:left-0 lg:-translate-y-1/2 lg:text-left ñg:pl-[200px]">
+                    <Carousel.Caption>
                     </Carousel.Caption>
                 </Carousel.Item>
                 {/* Primer banner de grifo */}
@@ -348,14 +346,12 @@ const Home = () => {
             <Servicios />
 
 
+           {/* ----- Banner movil ----  */}
 
 
-            <div className='movil-banner'>
-
-                <img className='object-cover' src={movil_banner} alt="sunat" />
-
-            </div>
-
+         
+        
+            {/* ----- EYNCOR CLOUD  ----  */}
 
 
             <section class="py-10 sm:py-16 lg:py-24 flex">
@@ -377,6 +373,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+
+             {/* ----- EYNCOR 100% WEB Y MOVIL ------  */}
 
             <section class="py-10 sm:py-16 lg:py-24">
                 <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">

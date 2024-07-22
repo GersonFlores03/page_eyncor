@@ -22,10 +22,6 @@ const ProductoFormulario = () => {
 
 
     return (
-
-        <div>
-            <Toaster position="bottom-right"/>
-
             <div class="overflow-hidden bg-white rounded-md">
                 <div class="p-6 sm:p-10">
                     <h3 class="text-3xl font-semibold text-black mb-4">Contáctanos</h3>
@@ -131,10 +127,11 @@ const ProductoFormulario = () => {
                         </div>
                     </form>
                 </div>
+                <Toaster position="bottom-right"/>
          </div>
 
          
-        </div> 
+        
 
 
     );

@@ -96,7 +96,7 @@ const NavLinks = ({ setOpen }) => {
           >
             {/* sublinks */}
             {link.sublinks.map((slinks) => (
-              <div>
+              <div key={slinks.Head}>
                 <div>
                   <h1
                     onClick={() =>

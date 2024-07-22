@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 const Innovacion = () => {
     return (
-        <section className=' lg:mt-[103px]'>
+        <section className='lg:mt-[103px]'>
             <Carousel className='eyncor_erp_carrusel mb-7'>
                 <Carousel.Item>
                     <img

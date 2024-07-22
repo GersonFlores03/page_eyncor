@@ -112,7 +112,7 @@ const ChatContenido = () => {
 
     {
       id: '5',
-      component: <FormularioChat />,
+      component: <FormularioChat/>,
       waitAction: true,
       trigger: '6'
     },

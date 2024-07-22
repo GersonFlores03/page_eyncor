@@ -49,10 +49,11 @@ function App() {
 
       <FloatingWhatsApp
         phoneNumber="+51948774628"
-        accountName="EYNCOR ERP S.A.C"
+        accountName="EYNCOR ERP"
         statusMessage="Disponible para chat"
         avatar={social}
-        chatMessage="¡Hola! ¿En qué puedo ayudarte hoy?"
+        chatMessage="¡Hola! ¿En qué ERP estas interesado?"
+        placeholder="Escribe un mensaje"
 
       />
 

@@ -10,7 +10,7 @@ const Contacto = () => {
    
       const onSubmit = () => {
         try {
-            Axios.post("http://localhost:8000/enviar_correo.php" , data)
+            Axios.post("http://eyncor.com/correo/enviar_correo.php" , data)
             .then(res => setCorreo(res.data))
             toast.success('Nuestro equipo se comunicará con usted pronto.');
             reset();

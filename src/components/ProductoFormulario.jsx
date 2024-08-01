@@ -10,7 +10,7 @@ const ProductoFormulario = () => {
     
     const onSubmit = (data) => {
         try {
-            axios.post("http://localhost:8000/enviar_correo.php" , data)
+            axios.post("http://eyncor.com/correo/enviar_correo.php" , data)
             .then(res => setCorreo(res.data))
             toast.success('Nuestro equipo se comunicará con usted pronto.');
             reset();
@@ -80,6 +80,7 @@ const ProductoFormulario = () => {
                             </div>
 
 
+                            {/* 
                             <div>
                                 <label for="" class="text-base font-medium text-gray-900"> Fecha </label>
                                 <div class="mt-2.5 relative">
@@ -91,9 +92,13 @@ const ProductoFormulario = () => {
                                     />
                                 </div>
                             </div>
+                            
+                            */}
 
 
-                            <div>
+                          {/* 
+                          
+                             <div>
                                 <label for="" class="text-base font-medium text-gray-900"> Hora </label>
                                 <div class="mt-2.5 relative">
                                     <input
@@ -104,6 +109,9 @@ const ProductoFormulario = () => {
                                     />
                                 </div>
                             </div>
+                          
+                          
+                          */}
 
 
 

@@ -23,7 +23,7 @@ const Cliente = () => {
                             <tbody>
                                 <tr>
                                     <td class="border px-4 py-2">CAXAMARCA GAS GAS S.A. (CAXAGAS)</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">Cajamarca, Huamachuco, Baños del Inca, Chota, Celendín, Cajabamba, Bambamarca, Chota, Chilete, Guadalupe, Chepén</td>
                                     <td class="border px-4 py-2"><a target="_blank" href="http://www.caxagas.pe" class="text-blue-500">www.caxagas.pe</a></td>
                                 </tr>
@@ -36,20 +36,20 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">NATURGAS DEL PERU SAC</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">Arequipa</td>
                                     <td class="border px-4 py-2"><a target="_blank" href="https://www.naturgas.com.pe/" class="text-blue-500">www.naturgas.com.pe</a></td>
                                 </tr>
                                 <tr>
                                     <td class="border px-4 py-2">CORPORACION NATURGAS DEL PERU SAC</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
-                                    <td class="border px-4 py-2">Arequipa</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
+                                    <td class="border px-4 py-2">Arequipa, Perú</td>
                                     <td class="border px-4 py-2"><a target="_blank" href="http://naturgas.com.pe/nosotros.html" class="text-blue-500">www.naturgas.com.pe</a></td>
                                 </tr>
 
                                 <tr>
                                     <td class="border px-4 py-2">NATURGAS PERUANA DE HIDROCARBUROS SAC</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">-</td>
                                     <td class="border px-4 py-2">-</td>
 
@@ -57,34 +57,34 @@ const Cliente = () => {
 
                                 <tr>
                                     <td class="border px-4 py-2">SOUTHFORK EIRL</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">-</td>
                                     <td class="border px-4 py-2">-</td>
                                 </tr>
 
                                 <tr>
                                     <td class="border px-4 py-2">SELVA GAS NOR ORIENTE E.I.R.L.</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">-</td>
                                     <td class="border px-4 py-2">-</td>
                                 </tr>
 
                                 <tr>
                                     <td class="border px-4 py-2">REPARTO GLP SAC</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">Lima</td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
                                 <tr>
                                     <td class="border px-4 py-2">ECONOGAS S.R.LTDA</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">Lima</td>
                                     <td class="border px-4 py-2"><a target="_blank" href="https://www.econogas.pe/" class="text-blue-500">www.econogas.pe</a></td>
                                 </tr>
 
                                 <tr>
                                     <td class="border px-4 py-2">SELVA GAS NOR ORIENTE E.I.R.L.</td>
-                                    <td class="border px-4 py-2">Venta de GLP</td>
+                                    <td class="border px-4 py-2">Planta de GLP</td>
                                     <td class="border px-4 py-2">-</td>
                                     <td class="border px-4 py-2">-</td>
                                 </tr>
@@ -109,8 +109,8 @@ const Cliente = () => {
                             <tbody>
                                 <tr>
                                     <td class="border px-4 py-2">ESTACION DE SERVICIOS DON FERNANDO SAC</td>
-                                    <td class="border px-4 py-2">Estación/Grifos</td>
-                                    <td class="border px-4 py-2">Trujillo</td>
+                                    <td class="border px-4 py-2">Grifos</td>
+                                    <td class="border px-4 py-2">La Libertad Trujillo</td>
                                     <td class="border px-4 py-2"></td>
                                 </tr>
                                 <tr>

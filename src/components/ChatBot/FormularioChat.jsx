@@ -17,7 +17,7 @@ const FormularioChat = ({ triggerNextStep }) => {
 
     const onSubmit = (data) => {
         try {
-            axios.post("http://localhost:8000/enviar_correo.php", data)
+            axios.post("http://eyncor.com/correo/enviar_correo.php", data)
                 .then(res => setCorreo(res.data))
             toast.success('Nuestro equipo se comunicará con usted pronto.');
             reset();
@@ -76,7 +76,8 @@ const FormularioChat = ({ triggerNextStep }) => {
                 </div>
 
 
-                <div className="form-group mb-3">
+                {/* 
+                 <div className="form-group mb-3">
 
                     <p className='mb-1'> Fecha: </p>
                     <input
@@ -85,7 +86,14 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('fecha', { required: true })}
                     />
                 </div>
+                
+                
+                */}
+                
 
+                {/* 
+                
+                
                 <div className="form-group mb-3">
 
                     <p className='mb-1'>Hora: </p>
@@ -95,6 +103,9 @@ const FormularioChat = ({ triggerNextStep }) => {
                         {...register('hora', { required: true })}
                     />
                 </div>
+                
+                
+                */}
 
 
 
